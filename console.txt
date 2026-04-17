@@ -1,0 +1,1112 @@
+ Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+ Work Wonders SDK ready to be used
+ ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+warnOnce @ react-router-dom.js?v=27a2b809:3586
+ ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+warnOnce @ react-router-dom.js?v=27a2b809:3586
+ 18:31:27.368 (renderer) › [Language] Using saved language preference: en
+ 18:31:27.370 (renderer) › [Language] Startup language finalized: en
+ 18:31:27.238 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app setting
+ 18:31:27.325 (python-rpc) › s > App execution aliases.
+
+ 18:31:27.480 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:27.485 (main) › [GetMe] Calling getUserData...
+ 18:31:27.488 (main) › [GetMe] Calling getUserData...
+ 18:31:27.649 (main) › [GetMe] getUserData returned: user id=XyD6nAg5, displayName=goat
+ 18:31:27.722 (main) › [GetMe] getUserData returned: user id=XyD6nAg5, displayName=goat
+ 18:31:27.838 (renderer) › Initializing Hydra Resources
+ 18:31:27.983 (renderer) › Work Wonders SDK initialized
+ 18:31:29.631 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable t
+ 18:31:29.634 (python-rpc) › his shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:31:29.642 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:29.673 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:29.781 (python-rpc) › Python was not found; run without arguments to install from the Mi
+ 18:31:29.784 (python-rpc) › crosoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:31:29.791 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:31.945 (python-rpc) › Python was not found; run without arguments to install from the Microsoft
+ 18:31:31.948 (python-rpc) ›  Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:31:31.955 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:31.989 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:32.099 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:31:32.108 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource <URL> was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+ 18:31:34.427 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:31:34.443 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:34.478 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:34.641 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:31:34.655 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+ 18:31:36.820 (python-rpc) › Python was not found; run without arguments to ins
+electron-log_renderer.js?v=27a2b809:324 18:31:36.825 (python-rpc) › tall from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:36.832 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:36.865 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:37.283 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:37.285 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:39.466 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Stor
+electron-log_renderer.js?v=27a2b809:324 18:31:39.480 (python-rpc) › e, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:39.488 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:39.524 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:39.638 (python-rpc) › Python was not found; run without arguments to install from the Microsoft S
+electron-log_renderer.js?v=27a2b809:324 18:31:39.641 (python-rpc) › tore, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:39.648 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:41.814 (python-rpc) › Python was not found; run without arguments to inst
+electron-log_renderer.js?v=27a2b809:324 18:31:41.819 (python-rpc) › all from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:41.825 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:41.864 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:41.977 (python-rpc) › Python was not found; run
+electron-log_renderer.js?v=27a2b809:324 18:31:41.983 (python-rpc) ›  without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:41.987 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:44.136 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disa
+electron-log_renderer.js?v=27a2b809:324 18:31:44.139 (python-rpc) › ble this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:44.146 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:44.179 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:44.285 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Sto
+electron-log_renderer.js?v=27a2b809:324 18:31:44.288 (python-rpc) › re, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:44.296 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:46.457 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut fro
+electron-log_renderer.js?v=27a2b809:324 18:31:46.460 (python-rpc) › m Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:46.465 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:46.495 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:46.602 (python-rpc) › Python was not found; run without arguments to install from th
+electron-log_renderer.js?v=27a2b809:324 18:31:46.607 (python-rpc) › e Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:46.612 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:46.614 (main) › [MainLoop] Completed 10 iterations
+electron-log_renderer.js?v=27a2b809:324 18:31:47.658 (main) › Starting preflight check for game launch Object
+electron-log_renderer.js?v=27a2b809:324 18:31:47.662 (main) › Running common redistributables preflight check
+electron-log_renderer.js?v=27a2b809:324 18:31:47.677 (main) › Preflight already passed, skipping checks
+electron-log_renderer.js?v=27a2b809:324 18:31:47.679 (main) › Preflight check result Object
+electron-log_renderer.js?v=27a2b809:324 18:31:48.809 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or
+electron-log_renderer.js?v=27a2b809:324 18:31:48.814 (python-rpc) ›  disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:48.824 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:48.857 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:48.970 (python-rpc) › Python was not found; run without arguments to install from t
+electron-log_renderer.js?v=27a2b809:324 18:31:48.973 (python-rpc) › he Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:48.979 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:49.682 (main) › [Security] launchNatively called: D:\sdk\test\hydra\test-security\malware-test.exe
+electron-log_renderer.js?v=27a2b809:324 18:31:49.684 (main) › [Security] Before spawnIsolatedProcess try block
+electron-log_renderer.js?v=27a2b809:324 18:31:49.686 (main) › [Security] Inside spawnIsolatedProcess try, about to call ProcessIsolation.spawnIsolatedProcess
+electron-log_renderer.js?v=27a2b809:324 18:31:50.024 (main) › [ProcessIsolation] Job Object creation note: HydraSandbox_1776439909689_g7t0vh Object
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.033 (main) › [ProcessIsolation] Job Object created: HydraSandbox_1776439909689_g7t0vh
+electron-log_renderer.js?v=27a2b809:324 18:31:50.157 (main) › [ProcessIsolation] Firewall rule failed: HydraGame_HydraSandbox_1776439909689_g7t0vh Object
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.211 (main) › [ProcessIsolation] Failed to restrict C:\Users\mouta\Documents: Error: Command failed: icacls "C:\Users\mouta\Documents" /inheritance:r /deny "HydraSandbox_1776439909689_g7t0vh:(OI)(CI)(RX,W,D,KA,FA)"
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.267 (main) › [ProcessIsolation] Failed to restrict C:\Users\mouta\Desktop: Error: Command failed: icacls "C:\Users\mouta\Desktop" /inheritance:r /deny "HydraSandbox_1776439909689_g7t0vh:(OI)(CI)(RX,W,D,KA,FA)"
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.318 (main) › [ProcessIsolation] Failed to restrict C:\Users\mouta\AppData\Roaming: Error: Command failed: icacls "C:\Users\mouta\AppData\Roaming" /inheritance:r /deny "HydraSandbox_1776439909689_g7t0vh:(OI)(CI)(RX,W,D,KA,FA)"
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.370 (main) › [ProcessIsolation] Failed to restrict C:\Users\mouta\AppData\Local: Error: Command failed: icacls "C:\Users\mouta\AppData\Local" /inheritance:r /deny "HydraSandbox_1776439909689_g7t0vh:(OI)(CI)(RX,W,D,KA,FA)"
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.372 (main) › [ProcessIsolation] Folder restrictions applied for: HydraSandbox_1776439909689_g7t0vh
+electron-log_renderer.js?v=27a2b809:324 18:31:50.475 (main) › [ProcessIsolation] Registry restrict failed: Error: Command failed: icacls "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /deny "HydraSandbox_1776439909689_g7t0vh:(KEY_SET_VALUE)"
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.575 (main) › [ProcessIsolation] Registry restrict failed: Error: Command failed: icacls "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /deny "HydraSandbox_1776439909689_g7t0vh:(KEY_SET_VALUE)"
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.630 (main) › [ProcessIsolation] Registry restrict failed: Error: Command failed: reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /ve /d "BLOCKED" /f
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.632 (main) › [ProcessIsolation] Registry restrictions applied for: HydraSandbox_1776439909689_g7t0vh
+electron-log_renderer.js?v=27a2b809:324 18:31:50.638 (main) › [ProcessIsolation] Spawned isolated process: PID 14468, Job: HydraSandbox_1776439909689_g7t0vh
+electron-log_renderer.js?v=27a2b809:324 18:31:50.640 (main) › [RuntimeMonitor] Started monitoring PID: 14468
+electron-log_renderer.js?v=27a2b809:324 18:31:50.641 (main) › [Security] Protected launch: PID 14468, Job: HydraSandbox_1776439909689_g7t0vh
+electron-log_renderer.js?v=27a2b809:324 18:31:50.643 (main) › [SECURITY] ProcessIsolation: Game launched with sandbox: PID 14468 Object
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:50.798 (main) › [ProcessIsolation] Cleaned up isolation for PID: 14468
+electron-log_renderer.js?v=27a2b809:324 18:31:51.126 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Stor
+electron-log_renderer.js?v=27a2b809:324 18:31:51.130 (python-rpc) › e, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:51.135 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:51.168 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:51.276 (python-rpc) › Python was not found; run without arguments to install from the Micr
+electron-log_renderer.js?v=27a2b809:324 18:31:51.281 (python-rpc) › osoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:51.286 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:53.435 (python-rpc) › Python was not found; run without arguments to install from the Microsoft S
+electron-log_renderer.js?v=27a2b809:324 18:31:53.438 (python-rpc) › tore, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:53.445 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:53.477 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:31:53.585 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or d
+electron-log_renderer.js?v=27a2b809:324 18:31:53.587 (python-rpc) › isable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:31:53.594 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:01.356 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:32:01.366 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:01.412 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:01.684 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:32:01.686 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:04.018 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Stor
+electron-log_renderer.js?v=27a2b809:324 18:32:04.025 (python-rpc) › e, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:32:04.029 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:04.058 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:04.158 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store
+electron-log_renderer.js?v=27a2b809:324 18:32:04.161 (python-rpc) › , or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:32:04.164 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:06.321 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:32:06.361 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:06.399 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:06.637 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+electron-log_renderer.js?v=27a2b809:324 18:32:06.641 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+electron-log_renderer.js?v=27a2b809:324 18:32:08.901 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disab
+electron-log_renderer.js?v=27a2b809:324 18:32:08.905 (python-rpc) › le this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:08.916 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:08.950 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+electron-log_renderer.js?v=27a2b809:324 18:32:09.088 (python-rpc) › Python was not found; run without arguments to inst
+electron-log_renderer.js?v=27a2b809:324 18:32:09.091 (python-rpc) › all from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:09.097 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+electron-log_renderer.js?v=27a2b809:324 18:32:11.243 (python-rpc) › Python was not found; run without arguments to install from the Micro
+electron-log_renderer.js?v=27a2b809:324 18:32:11.246 (python-rpc) › soft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:11.250 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:11.283 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+electron-log_renderer.js?v=27a2b809:324 18:32:11.387 (python-rpc) › Pyth
+electron-log_renderer.js?v=27a2b809:324 18:32:11.390 (python-rpc) › on was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:11.398 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+electron-log_renderer.js?v=27a2b809:324 18:32:13.536 (python-rpc) › Python was not found; run with
+electron-log_renderer.js?v=27a2b809:324 18:32:13.539 (python-rpc) › out arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:13.544 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:13.577 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+electron-log_renderer.js?v=27a2b809:324 18:32:13.677 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or d
+electron-log_renderer.js?v=27a2b809:324 18:32:13.679 (python-rpc) › isable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:13.684 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+electron-log_renderer.js?v=27a2b809:324 18:32:15.841 (python-rpc) › Python was not found; run without arguments to install f
+electron-log_renderer.js?v=27a2b809:324 18:32:15.845 (python-rpc) › rom the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:15.858 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:15.890 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+electron-log_renderer.js?v=27a2b809:324 18:32:16.003 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable 
+electron-log_renderer.js?v=27a2b809:324 18:32:16.006 (python-rpc) › this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30 18:32:16.010 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js?v=27a2b809:324
+setTimeout
+writeFn @ electron-log_renderer.js?v=27a2b809:324
+transport @ electron-log_renderer.js?v=27a2b809:328
+processMessage @ electron-log_renderer.js?v=27a2b809:205
+(anonymous) @ electron-log_renderer.js?v=27a2b809:510
+postMessage
+(anonymous) @ VM120 D:\sdk\test\hydra\node_modules\electron-log\src\renderer\electron-log-preload.js:30
+emit @ VM23 node:events:519
+onMessage @ VM116 renderer_init:2
+electron-log_renderer.js?v=27a2b809:324 18:32:16.013 (main) › [MainLoop] Completed 20 iterations
+ 18:32:18.175 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced
+ 18:32:18.177 (python-rpc) ›  app settings > App execution aliases.
+
+ 18:32:18.187 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:18.224 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:18.348 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, 
+ 18:32:18.352 (python-rpc) › or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:18.357 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:20.502 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable th
+ 18:32:20.505 (python-rpc) › is shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:20.511 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:20.542 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:20.665 (python-rpc) › Python was not found; run without arguments to install from the Micr
+ 18:32:20.668 (python-rpc) › osoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:20.679 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:22.820 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut f
+ 18:32:22.823 (python-rpc) › rom Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:22.828 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:22.860 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:22.962 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or 
+ 18:32:22.965 (python-rpc) › disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:22.971 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:25.113 (python-rpc) › Python was not found; run without arguments to
+ 18:32:25.117 (python-rpc) ›  install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:25.122 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:25.152 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:25.256 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable t
+ 18:32:25.259 (python-rpc) › his shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:25.266 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:27.416 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disabl
+ 18:32:27.419 (python-rpc) › e this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:27.424 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:27.458 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:27.566 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from
+ 18:32:27.568 (python-rpc) ›  Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:27.573 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:29.764 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:29.778 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:29.822 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:29.935 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable thi
+ 18:32:29.940 (python-rpc) › s shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:29.953 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:32.109 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:32.121 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:32.153 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:32.270 (python-rpc) › Python was not found; run without arguments to install from the Mi
+ 18:32:32.273 (python-rpc) › crosoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:32.278 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:34.413 (python-rpc) › Python was not found; run without 
+ 18:32:34.417 (python-rpc) › arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:34.422 (python-rpc) › Python RPC not ready, restarting process Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:34.451 (main) › [DownloadManager] RPC status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2
+ 18:32:34.552 (python-rpc) › Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from S
+ 18:32:34.554 (python-rpc) › ettings > Apps > Advanced app settings > App execution aliases.
+
+ 18:32:34.559 (main) › [DownloadManager] RPC seed status poll failed Error: Python RPC exited: code=9009 signal=null
+    at PythonRPC.handleProcessExit (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4749:33)
+    at ChildProcess.<anonymous> (file:///D:/sdk/test/hydra/out/main/services-B2qYD3dV.js:4850:9)
+    at Object.onceWrapper (node:events:634:26)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+(anonymous) @ electron-log_renderer.js:324
+setTimeout
+writeFn @ electron-log_renderer.js:324
+transport @ electron-log_renderer.js:328
+processMessage @ electron-log_renderer.js:205
+(anonymous) @ electron-log_renderer.js:510
+postMessage
+(anonymous) @ D:\sdk\test\hydra\no…n-log-preload.js:30
+emit @ node:events:519
+onMessage @ node:electron/js2c/renderer_init:2

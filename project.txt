@@ -1,0 +1,1331 @@
+================================================================================
+                    MO3TAZ LAUNCHER - TECHNICAL SYSTEM REPORT
+================================================================================
+                    Comprehensive Architecture & System Analysis
+                    Generated: April 2026
+                    Version: 0.35.0
+================================================================================
+
+
+TABLE OF CONTENTS
+--------------------------------------------------------------------------------
+1. Executive Summary
+2. Core Architecture
+3. Data Flow & State Management
+4. UI/Styling Strategy
+5. Critical Modules
+6. Dependencies & Tech Stack
+7. Potential Weaknesses
+8. Future-Ready Recommendations
+9. Project Structure Overview
+10. Appendix - Key File Inventory
+
+
+================================================================================
+1. EXECUTIVE SUMMARY
+================================================================================
+
+MO3TAZ Launcher (codename: mo3tazlauncher) is a cross-platform desktop game
+launcher application built with Electron, React, and TypeScript. It is a
+fork/derivative of the Hydra Launcher project (Los Broxas organization),
+rebranded and customized with its own branding, authentication pipeline, and
+feature extensions.
+
+The application serves as a game library manager with torrent-based downloading,
+cloud save synchronization, achievement tracking, debrid service integration
+(Real-Debrid, Premiumize, AllDebrid, TorBox), social features via WebSocket,
+and a custom theme system.
+
+Key architectural characteristics:
+  - Electron 37.x with electron-vite for build tooling
+  - React 18 with Redux Toolkit for client state
+  - LevelDB (ClassicLevel) for persistent storage
+  - Python-based RPC for torrent downloading (libtorrent)
+  - Custom IPC event system with register-event pattern
+  - Real-time WebSocket communication for social features
+  - i18next for multi-language support
+  - Sentry for error tracking
+
+
+================================================================================
+2. CORE ARCHITECTURE
+================================================================================
+
+2.1 PROCESS MODEL
+--------------------------------------------------------------------------------
+
+The application follows the standard Electron multi-process architecture:
+
+  +-------------------+       IPC (contextBridge)       +------------------+
+  |  Main Process     | <-----------------------------> | Renderer Process |
+  |  (Node.js)        |        preload/index.ts         | (React/SPA)      |
+  |                   |                                 |                  |
+  |  - IPC Handlers   |                                 |  - UI/Components |
+  |  - Services       |                                 |  - Redux Store   |
+  |  - LevelDB        |                                 |  - Router        |
+  |  - Window Mgmt    |                                 |  - Hooks         |
+  +-------------------+                                 +------------------+
+          |
+          |  Python RPC
+          v
+  +-------------------+
+  |  Python RPC       |
+  |  (libtorrent)     |
+  +-------------------+
+
+2.2 IPC COMMUNICATION PATTERN
+--------------------------------------------------------------------------------
+
+The preload script (src/preload/index.ts) uses contextBridge to expose a
+comprehensive API to the renderer process under `window.electron`. This is
+a well-structured, type-safe IPC layer with the following characteristics:
+
+  - Invocation Pattern: ipcRenderer.invoke() / ipcMain.handle()
+  - Event Listening:  ipcRenderer.on() with auto-cleanup via unsubscribe
+  - Type Safety:      Full TypeScript types shared via @types module
+
+The preload script exposes approximately 120+ methods organized into categories:
+
+  Category                    | Methods Count | Purpose
+  --------------------------- | ------------- | --------------------------------
+  Torrenting                  | 12            | Download control, seeding, queue
+  Catalogue                   | 6             | Game details, assets, stats
+  User Preferences            | 8             | Settings, debrid auth
+  Download Sources            | 7             | Source management, sync
+  Library                     | 40+           | Game CRUD, shortcuts, launching
+  Hardware                    | 2             | Disk space, write permissions
+  Cloud Save                  | 12            | Backup upload/download
+  Misc                        | 15+           | Dialogs, external URLs, version
+  Auto Update                 | 6             | Update checking, installation
+  Profile                     | 6             | Profile management, friend reqs
+  Auth                        | 10            | Login, logout, sessions
+  Notifications               | 10            | Local notification management
+  Themes                      | 10            | Theme CRUD, preview, validation
+
+2.3 EVENT REGISTRATION SYSTEM
+--------------------------------------------------------------------------------
+
+The main process uses a clean event registration pattern
+(src/main/events/register-event.ts):
+
+    registerEvent("eventName", async (event, ...args) => {
+      // handler logic
+      return result;
+    });
+
+All events are organized into domain-specific directories under
+src/main/events/, with each domain having an index.ts that imports all
+handlers. The master index.ts imports all domain indices and registers
+a few global misc handlers (ping, getVersion, etc.).
+
+Event Domains:
+  - auth/           : Login, logout, auth window, session hash
+  - autoupdater/    : Update checking and installation
+  - catalogue/      : Game shop details, assets, stats
+  - cloud-save/     : Save game upload/download, artifact management
+  - download-sources/ : Source addition, removal, syncing
+  - hardware/       : Disk space, folder permissions
+  - library/        : Game library operations (40+ handlers)
+  - leveldb/        : Direct database access from renderer
+  - misc/           : Redistributables, temp files, image processing
+  - notifications/  : Local and system notifications
+  - profile/        : User profile retrieval
+  - themes/         : Theme management
+  - torrenting/     : Download start/pause/resume/cancel
+  - user/           : User details, achievements
+  - user-preferences/ : Preference management, auto-launch
+
+2.4 WINDOW MANAGEMENT
+--------------------------------------------------------------------------------
+
+WindowManager (src/main/services/window-manager.ts) is a singleton class
+managing:
+
+  - mainWindow:       Primary application window (1200x860, min 1024x860)
+  - notificationWindow: Achievement notification overlay window
+  - gameLauncherWindow: Temporary window shown during game launch
+  - editorWindows:      Map of theme editor windows
+
+Key features:
+  - Hidden title bar on Windows/Linux, custom title bar controls
+  - CORS header injection for embedded widgets
+  - User-Agent rotation for external requests
+  - Remote URL loading with local fallback (production builds)
+  - Screen state persistence (position, size, maximized state)
+  - Auth window with branding injection (Hydra -> MO3TAZ)
+  - Fallback window showing (5s timeout)
+
+2.5 MAIN LOOP
+--------------------------------------------------------------------------------
+
+The application runs a continuous main loop (src/main/services/main-loop.ts)
+with a 2-second interval (MAIN_LOOP_INTERVAL) that executes these tasks
+concurrently via Promise.allSettled:
+
+  1. watchProcesses()           - Track running game processes for playtime
+  2. watchDownloads()           - Poll download progress from Python RPC
+  3. watchAchievements()        - Monitor achievement file changes
+  4. getSeedStatus()            - Check torrent seeding health
+  5. checkForUpdatePeriodically() - Check for app updates on schedule
+
+After each iteration, PowerSaveBlockerManager syncs state to prevent sleep
+during active downloads or compatibility game sessions.
+
+
+================================================================================
+3. DATA FLOW & STATE MANAGEMENT
+================================================================================
+
+3.1 REDUX STORE (Renderer State)
+--------------------------------------------------------------------------------
+
+Located at: src/renderer/src/store.ts
+Using: @reduxjs/toolkit with configureStore
+
+The store manages 11 slices:
+
+  Slice                  | Purpose
+  ---------------------- | ------------------------------------------------
+  window                 | Dragging state, modal detection
+  library                | Game list, search query, collection assignments
+  userPreferences        | User settings (language, paths, seed options)
+  download               | Download progress, extraction state, speed history
+  toast                  | Toast notification state (title, type, duration)
+  userDetails            | Profile info, subscription status, background
+  gameRunning            | Currently running game with session duration
+  subscription           | Hydra cloud modal visibility, feature flags
+  catalogueSearch        | Search state for game catalogue
+  collections            | Game collection management
+  auth (not in store)    | Auth state defined but may use separate mechanism
+
+Download slice features:
+  - Peak speed tracking per game
+  - Speed history for charting (last 120 data points)
+  - Extraction progress tracking
+  - Games with deletion in progress tracking
+
+3.2 LEVELDB DATABASE (Persistent Storage)
+--------------------------------------------------------------------------------
+
+Located at: src/main/level/
+Database: ClassicLevel (LevelDB implementation)
+Path: userData/hydra-db (or hydra-db-staging for staging builds)
+
+Database Structure:
+
+  Main DB Level:
+  - userPreferences   : User settings as JSON
+  - auth              : Access/refresh tokens, expiration
+  - screenState       : Window position, size, maximized state
+  - downloadSourcesCheckTimestamp: Timestamp for source checking
+
+  Sublevels:
+  - games             : Library games (Game objects)
+  - downloads         : Active/downloaded game metadata
+  - game-achievements : Per-game achievement data
+  - game-shop-cache   : Cached shop details from API
+  - game-shop-assets  : Cached game assets (images, etc.)
+  - game-stats-cache  : Cached game statistics
+  - download-sources  : Download source configurations
+  - local-notifications : Local notification records
+  - themes            : Custom theme definitions
+
+  The LevelDB service is accessible from both:
+  - Main: Direct db import
+  - Renderer: window.electron.leveldb (via IPC)
+
+3.3 API LAYER (HydraApi)
+--------------------------------------------------------------------------------
+
+Located at: src/main/services/hydra-api.ts
+Using: Axios with interceptors
+
+Architecture:
+  - Singleton Axios instance with base URL from environment
+  - Bearer token authentication via Authorization header
+  - Automatic token refresh on 401 (queue-based subscriber pattern)
+  - Auth persistence to LevelDB
+  - External auth handling (OAuth callback via custom protocol)
+  - JWT token decoding for user profile extraction
+
+Key methods:
+  - setupApi()          : Initialize axios, load auth from DB
+  - login()             : Email/password authentication
+  - handleExternalAuth() : Process OAuth callback URLs
+  - get/post/put/delete/patch : HTTP methods with auth header injection
+  - refreshToken()      : Manual token refresh
+  - handleSignOut()     : Clear auth state
+
+The API is also accessible from the renderer via window.electron.hydraApi
+which routes calls through IPC to the main process.
+
+3.4 PYTHON RPC (Torrent Engine)
+--------------------------------------------------------------------------------
+
+Located at: src/main/services/python-rpc.ts
+
+A Python-based RPC service handles all torrent operations:
+  - start/pause/cancel downloads
+  - resume/pause seeding
+  - status polling
+  - download speed limiting
+
+Communication: Node.js spawns a Python process and communicates via some IPC
+mechanism (likely HTTP or socket). The Python service uses libtorrent.
+
+3.5 STATE SYNCHRONIZATION
+--------------------------------------------------------------------------------
+
+Cloud Sync (src/main/services/cloud-sync.ts):
+  - Automatic cloud save upload on game open/close
+  - Ludusavi integration for save game backup
+  - Backup preview and artifact management
+
+Library Sync (src/main/services/library-sync/):
+  - Playtime tracking with periodic API sync (every 3 minutes)
+  - Delta-based playtime accumulation
+  - Offline tolerance (unsyncedDeltaPlayTimeInMilliseconds)
+  - Game creation on API if not present
+
+WebSocket (src/main/services/ws/):
+  - Real-time friend requests
+  - Friend game session notifications
+  - Notification count updates
+  - Exponential backoff reconnection (1s to 30s)
+  - Heartbeat mechanism (PING/PONG every 15s)
+  - Protocol Buffers for message encoding
+
+
+================================================================================
+4. UI/STYLING STRATEGY
+================================================================================
+
+4.1 STYLING ARCHITECTURE
+--------------------------------------------------------------------------------
+
+Technology: SCSS (sass-embedded) with modern API
+Global styles: src/renderer/src/scss/globals.scss
+
+Design System:
+  - Dark theme with layered backgrounds (#0f0f14, #0a0a0f, #14141c, #1a1a24)
+  - Accent colors: Neon Teal (#00f0ff), Neon Blue (#4d7cff), Neon Purple (#8b5cf6)
+  - Refined state colors: Success (#4caf7d), Danger (#e8566e), Warning (#ff6b35)
+  - Subtle borders with rgba(255,255,255,0.08)
+  - RGB-shift animation for hover states
+  - Professional shadow system (glow-sm, glow-md, glow-lg)
+
+Typography:
+  - Font: Noto Sans (400, 500, 700 weights via @fontsource)
+  - Body: 13px, Small: 11px
+  - Colors: Heading (#ffffff), Body (#b0b0c0), Muted (#e0e0e8)
+
+Layout:
+  - CSS Grid and Flexbox
+  - Container-based layout with sidebar + main content
+  - Title bar (Windows only, custom styled)
+  - Scrollable content area with infinite scroll support
+
+4.2 COMPONENT ORGANIZATION
+--------------------------------------------------------------------------------
+
+Location: src/renderer/src/components/
+
+37+ React components organized by domain:
+
+  Component              | Type           | Purpose
+  ---------------------- | -------------- | --------------------------------
+  Sidebar                | Navigation     | Main app navigation
+  Header                 | Layout         | Top bar with search, profile
+  BottomPanel            | Layout         | Download progress bar
+  GameCard               | Display        | Game listing card
+  Toast                  | Feedback       | Toast notifications
+  Modal                  | Overlay        | Base modal component
+  Backdrop               | Overlay        | Backdrop for modals
+  Button                 | Form           | Styled button
+  TextField              | Form           | Text input
+  SelectField            | Form           | Dropdown select
+  CheckboxField          | Form           | Checkbox input
+  RadioField             | Form           | Radio input
+  ContextMenu            | Interaction    | Right-click menus
+  DropdownMenu           | Interaction    | Dropdown menus (Radix UI)
+  Avatar                 | Display        | User avatar
+  Badge                  | Display        | Status badges
+  Hero                   | Display        | Hero banners
+  Link                   | Navigation     | Styled links
+  SearchDropdown         | Search         | Search with suggestions
+  StarRating             | Display        | Star rating component
+  ProtonPathPicker       | Form           | Proton version selector
+  CreateCollectionModal  | Modal          | Collection creation
+  ConfirmationModal      | Modal          | Confirmations
+  FullscreenMediaModal   | Modal          | Fullscreen media viewer
+  GameContextMenu        | Interaction    | Game-specific context menu
+  AutoUpdateSubHeader    | Header         | Update status sub-header
+  ScanGamesModal         | Modal          | Scan installed games
+  LoginModal             | Auth           | Login dialog
+  AchievementNotification| Notification   | Achievement popup
+  CollapsedMenu          | Navigation     | Collapsible menu
+  DebridBadge            | Display        | Debrid service indicator
+  HighlightText          | Display        | Search highlight
+  SidebarGameItem        | Navigation     | Sidebar game entry
+  SidebarProfile           | Profile        | Sidebar profile section
+  SidebarAddingCustomGameModal | Modal    | Custom game addition
+  SuspenseWrapper        | Utility        | Loading suspense wrapper
+
+4.3 THEME SYSTEM
+--------------------------------------------------------------------------------
+
+The application supports a robust custom theme system:
+  - Themes stored in LevelDB themes sublevel
+  - Themes can include custom CSS (injected dynamically)
+  - Custom achievement sounds (wav, mp3, ogg, m4a)
+  - Theme editor page for creating/editing themes
+  - Theme preview functionality
+  - Themes can reference external CSS URLs
+  - Active theme detection and automatic CSS injection
+
+4.4 REACT ARCHITECTURE
+--------------------------------------------------------------------------------
+
+Entry Point: src/renderer/src/main.tsx
+
+  - React 18 StrictMode
+  - Redux Provider wrapping entire app
+  - HashRouter for client-side routing
+  - i18next with browser language detection
+  - Sentry initialization for error tracking
+  - Noto Sans font imports
+  - External CSS library imports (react-loading-skeleton, react-tooltip)
+
+Routing:
+  /                        -> Home
+  /catalogue               -> Catalogue
+  /library                 -> Library
+  /downloads               -> Downloads
+  /game/:shop/:objectId    -> GameDetails
+  /settings                -> Settings
+  /profile/:userId         -> Profile
+  /achievements            -> Achievements
+  /notifications           -> Notifications
+  /theme-editor            -> ThemeEditor (standalone route)
+  /achievement-notification -> AchievementNotification (standalone)
+  /game-launcher           -> GameLauncher (standalone)
+
+App Component (src/renderer/src/app.tsx):
+  - Layout shell with Sidebar, Header, BottomPanel, Toast
+  - Multiple IPC event listeners for real-time updates
+  - WorkWonders widget integration (changelog, knowledge, feedback)
+  - Theme loading and CSS injection
+  - Achievement sound playback
+  - Archive deletion modal
+  - Hydra Cloud modal
+  - Dragging state management based on modal presence
+
+Context System:
+  - Game Details Context
+  - Settings Context
+  - User Profile Context
+  - Cloud Sync Context
+
+Hooks (18 custom hooks):
+  - useAppDispatch/useAppSelector (Redux typed hooks)
+  - useDownload, useLibrary, useToast, useUserDetails
+  - useCatalogue, useSearchHistory, useSearchSuggestions
+  - useFeature, useFormat, useDate, useHlsVideo
+  - useGameCard, useGameCollections, useSectionCollapse
+  - useSubscription, useDownloadOptionsListener
+
+
+================================================================================
+5. CRITICAL MODULES
+================================================================================
+
+5.1 DOWNLOAD MANAGER
+--------------------------------------------------------------------------------
+
+Located at: src/main/services/download/download-manager.ts
+Class: DownloadManager (static singleton)
+
+Architecture:
+  - Dual downloader support: Python RPC (libtorrent) + JS HTTP downloader
+  - Sequential download processing (one active download at a time)
+  - Queue system with FIFO ordering
+  - Support for multiple download sources:
+    * Torrent (libtorrent via Python RPC)
+    * HTTP downloaders (Gofile, PixelDrain, Datanodes, Mediafire,
+      Buzzheavier, FuckingFast, VikingFile, Rootz)
+    * Debrid services (RealDebrid, Premiumize, AllDebrid, TorBox, Hydra)
+  - Speed limiting support (configurable max bytes/second)
+  - Peak speed tracking and speed history
+
+Download Flow:
+  1. Download started via IPC -> startGameDownload
+  2. DownloadManager resolves URI to appropriate downloader
+  3. For torrents: Python RPC handles libtorrent
+  4. For HTTP: JsHttpDownloader handles HTTP downloads
+  5. Main loop polls status every 2 seconds
+  6. Progress sent to renderer via IPC
+  7. On complete: seeding or extraction based on settings
+  8. Next queued download processed automatically
+
+AllDebrid Batch Downloading:
+  - Supports batch downloads with progress aggregation
+  - Tracks per-file completion within batch
+  - Batch-level speed computation
+
+Seeding:
+  - Optional seeding after download complete
+  - Seeding health verification (checks file integrity)
+  - Automatic pause of seeding for extraction
+  - Resume seeding after extraction complete
+
+5.2 GAME LAUNCHING LOGIC
+--------------------------------------------------------------------------------
+
+Located at: src/main/helpers/launch-game.ts
+
+The launchGame function handles cross-platform game launching:
+
+  Windows:
+  - Direct executable launch via shell.openPath or spawn
+  - Optional wrappers: gamemoderun, mangohud
+  - Preflight check for Common Redistributables
+
+  Linux:
+  - Native Linux binary launch
+  - Windows binaries via Wine fallback chain:
+    1. Try UMU (Unified Mu Launcher) with Proton
+    2. Fall back to direct Wine
+    3. Fall back to native launch (for .elf, .sh)
+  - Stale compatibility process cleanup before launch
+  - Wine prefix management
+  - Proton path resolution (game-specific or default)
+
+  Game Launcher Window:
+  - Temporary window shown during launch
+  - Auto-closes after game starts
+  - Auto-hide launcher to tray on game start (configurable)
+
+  Launch Options:
+  - Custom launch arguments support
+  - Environment variable injection
+  - Working directory resolution
+
+5.3 FILE OPERATIONS & EXTRACTION
+--------------------------------------------------------------------------------
+
+Located at: src/main/services/game-files-manager.ts
+           src/main/services/7zip.ts
+
+SevenZip:
+  - Bundled 7-Zip binary per platform (7z.exe, 7zz, 7zzs)
+  - Multi-password extraction support ("online-fix.me", "steamrip.com")
+  - Progress reporting during extraction
+  - Password retry logic (tries multiple passwords sequentially)
+  - File listing support
+
+GameFilesManager:
+  - Per-game instance (shop + objectId)
+  - Directory extraction (handles multi-part RAR archives)
+  - Single file extraction
+  - Automatic executable detection after extraction
+  - Desktop shortcut creation (Windows/Linux/macOS)
+  - Game icon downloading and ICO conversion (sharp + png-to-ico)
+  - Custom game asset management (copy, save, cleanup)
+  - Steam shortcut creation
+
+Extraction Flow:
+  1. Download complete -> check automaticallyExtract flag
+  2. If file: extract single archive
+  3. If directory: find and extract all compressed files
+  4. Handle nested archives (e.g., part1.rar as entry point)
+  5. Prompt for archive deletion after successful extraction
+  6. Search for and bind executable
+  7. Calculate installed size
+  8. Send completion notification
+
+5.4 NOTIFICATION SYSTEM
+--------------------------------------------------------------------------------
+
+Multiple notification channels:
+
+  System Notifications:
+  - Node.js native notifications via Electron
+  - Download complete notifications
+  - Extraction complete notifications
+  - New achievement notifications (combined count)
+
+  Custom Achievement Notifications:
+  - Custom notification window (360x140, positioned)
+  - Configurable position (top-left, top-right, bottom-left, bottom-right)
+  - Custom sounds per theme
+  - Configurable volume
+  - Supports combined achievements (N games, M achievements)
+  - Rare/platinum indicators
+
+  Local Notifications:
+  - Stored in LevelDB local-notifications sublevel
+  - CRUD operations via IPC
+  - Read/unread state management
+  - Count tracking
+
+  Toast Notifications:
+  - Redux-managed toast state
+  - Success/error/info types
+  - Auto-dismiss with configurable duration
+
+  WebSocket Notifications:
+  - Real-time notification count sync
+  - Friend request notifications
+  - Friend session notifications
+
+5.5 WINDOW MANAGEMENT
+--------------------------------------------------------------------------------
+
+WindowManager (detailed in Section 2.4) also handles:
+
+  - Game launcher window creation/destruction
+  - Achievement notification window with precise positioning
+  - Auth window with custom script injection
+  - Progress bar on taskbar icon
+  - Menu removal for clean UI
+  - DevTools shortcuts (F12, Ctrl+Shift+I/J)
+
+5.6 ACHIEVEMENT SYSTEM
+--------------------------------------------------------------------------------
+
+Located at: src/main/services/achievements/
+
+Components:
+  - AchievementWatcherManager: Main orchestrator class
+  - findAchievementFiles: Locates achievement files on disk
+  - parseAchievementFile: Parses different cracker formats
+  - mergeAchievements: Merges local with remote data
+  - getGameAchievementData: Retrieves achievement data
+
+How it works:
+  1. On game launch: firstSyncWithRemoteIfNeeded()
+     - Scan for existing achievement files
+     - Parse and merge with remote data
+     - Notify if achievements found
+
+  2. During gameplay: watchAchievements() (every 2s in main loop)
+     - Monitor achievement file modification times
+     - Detect new unlocks via stat changes
+     - For FLT crackers: monitor folder contents
+
+  3. Supported cracker formats:
+     - FLT (folder-based)
+     - Various other cracker types (via parseAchievementFile)
+
+  4. Achievement file locations:
+     - Game executable directory
+     - Steam compatibility data path
+     - Alternative object IDs
+
+  5. Notification:
+     - Combined notification for multiple achievements at once
+     - Custom or system notification based on preferences
+
+
+================================================================================
+6. DEPENDENCIES & TECH STACK
+================================================================================
+
+6.1 CORE FRAMEWORK
+--------------------------------------------------------------------------------
+
+  Dependency             | Version    | Purpose
+  ---------------------- | ---------- | --------------------------------------
+  electron               | ^37.7.1    | Desktop application framework
+  electron-vite          | ^5.0.0     | Vite build tooling for Electron
+  electron-builder       | ^26.0.12   | Packaging and distribution
+  react                  | ^18.2.0    | UI library
+  react-dom              | ^18.2.0    | React DOM renderer
+  react-router-dom       | ^6.22.3    | Client-side routing
+  typescript             | ^5.3.3     | Type safety
+
+6.2 STATE MANAGEMENT
+--------------------------------------------------------------------------------
+
+  @reduxjs/toolkit       | ^2.2.3     | Redux state management
+  react-redux            | ^9.1.1     | React bindings for Redux
+
+6.3 DATA & STORAGE
+--------------------------------------------------------------------------------
+
+  classic-level          | ^2.0.0     | LevelDB implementation
+  axios                  | ^1.13.5    | HTTP client
+  tough-cookie           | ^5.1.1     | Cookie management
+  user-agents            | ^1.1.387   | User-Agent rotation
+  parse-torrent          | ^11.0.18   | Torrent parsing
+  crc                    | ^4.3.2     | CRC checksums
+
+6.4 DEBRID & DOWNLOAD
+--------------------------------------------------------------------------------
+
+  workwonders-sdk        | 0.4.2      | External SDK (support/knowledge)
+  node-7z                | ^3.0.0     | 7-Zip Node.js bindings
+  check-disk-space       | ^3.4.0     | Disk space checking
+  file-type              | ^21.3.2    | File type detection
+  tar                    | ^7.5.13    | Tar archive handling
+
+6.5 UI COMPONENTS
+--------------------------------------------------------------------------------
+
+  @radix-ui/react-dropdown-menu | ^2.1.16 | Accessible dropdown menus
+  framer-motion          | ^12.15.0   | Animation library
+  lucide-react           | ^0.544.0   | Icon library
+  @primer/octicons-react | ^19.9.0    | GitHub Octicons
+  embla-carousel-react   | ^8.6.0     | Carousel component
+  react-dnd              | ^16.0.1    | Drag and drop
+  react-hook-form        | ^7.53.0    | Form management
+  @hookform/resolvers    | ^5.2.2     | Form validation resolvers
+  yup                    | ^1.5.0     | Schema validation
+  react-loading-skeleton | ^3.4.0     | Loading placeholders
+  react-tooltip          | ^5.28.1    | Tooltip component
+  react-infinite-scroll-component | ^6.1.0 | Infinite scroll
+  rc-virtual-list        | ^3.18.3    | Virtual list for performance
+  @monaco-editor/react   | ^4.6.0     | Code editor (theme editor)
+  @tiptap/*              | ^3.6.2     | Rich text editor
+
+6.6 STYLING
+--------------------------------------------------------------------------------
+
+  sass-embedded          | ^1.80.6    | SCSS preprocessing
+  classnames             | ^2.5.1     | Conditional CSS classes
+  color                  | ^4.2.3     | Color manipulation
+  color.js               | ^1.2.0     | Additional color utilities
+  @fontsource/noto-sans  | ^5.2.10    | Font files
+
+6.7 INTERNATIONALIZATION
+--------------------------------------------------------------------------------
+
+  i18next                | ^23.11.2   | i18n framework
+  react-i18next          | ^14.1.0    | React bindings
+  i18next-browser-languagedetector | ^7.2.1 | Auto language detection
+
+6.8 UTILITIES
+--------------------------------------------------------------------------------
+
+  lodash-es              | ^4.18.1    | Utility functions
+  date-fns               | ^3.6.0     | Date manipulation
+  uuid                   | ^13.0.0    | UUID generation
+  sharp                  | ^0.34.5    | Image processing
+  png-to-ico             | ^3.0.1     | PNG to ICO conversion
+  jsdom                  | ^24.0.0    | DOM simulation
+  sound-play             | ^1.1.0     | Audio playback
+  create-desktop-shortcuts| ^1.11.1   | Desktop shortcut creation
+  auto-launch            | ^5.0.6     | Auto-start on boot
+  winreg                 | ^1.2.5     | Windows registry access
+  sudo-prompt            | ^9.2.1     | Elevated privilege prompts
+  string-argv            | ^0.3.2     | String to argument parsing
+  ws                     | ^8.18.1    | WebSocket client
+  yaml                   | ^2.8.3     | YAML parsing
+  hls.js                 | ^1.5.12    | HLS video streaming
+  jsonwebtoken           | ^9.0.2     | JWT handling
+  react-shadow           | ^20.6.0    | Shadow DOM for isolation
+  steam-shortcut-editor  | (git)      | Steam shortcut manipulation
+
+6.9 MONITORING & ANALYTICS
+--------------------------------------------------------------------------------
+
+  @sentry/react          | ^10.33.0   | Error tracking
+  electron-log           | ^5.4.3     | Logging
+  electron-updater       | ^6.6.2     | Auto-update mechanism
+
+6.10 DEVELOPMENT
+--------------------------------------------------------------------------------
+
+  vite                   | ^8.0.8     | Build tool
+  @vitejs/plugin-react   | ^4.2.1    | React plugin for Vite
+  vite-plugin-svgr       | ^4.5.0     | SVG as React components
+  @swc/core              | ^1.4.16    | Fast TypeScript transpiler
+  eslint                 | ^8.56.0    | Linting
+  prettier               | ^3.4.2     | Code formatting
+  husky                  | ^9.1.7     | Git hooks
+  @commitlint/*          | ^19.6.0    | Commit message linting
+  @protobuf-ts/plugin    | ^2.10.0    | Protocol Buffers code generation
+  @aws-sdk/client-s3     | ^3.705.0   | S3 client (dev/build scripts)
+
+6.11 PROTOCOBUF
+--------------------------------------------------------------------------------
+
+The project uses Protocol Buffers for WebSocket message encoding.
+Generated code is output to src/main/generated/ via protoc.
+
+6.12 PYTHON RPC
+--------------------------------------------------------------------------------
+
+A separate Python service (hydra-python-rpc) handles libtorrent operations.
+Built via: npm run build:python-rpc (python3 setup.py build)
+
+
+================================================================================
+7. POTENTIAL WEAKNESSES
+================================================================================
+
+7.1 PERFORMANCE BOTTLENECKS
+--------------------------------------------------------------------------------
+
+  a) Main Loop Polling (2-second interval)
+     - All core operations (process watching, download progress, achievements,
+       seeding status, update checks) run on a fixed interval via polling.
+     - This creates unnecessary CPU usage when idle.
+     - Risk: Medium. On lower-end systems, the 2s interval with multiple
+       async operations could cause noticeable overhead.
+
+  b) LevelDB Synchronous Operations
+     - Many database operations are awaited sequentially in the startup flow.
+     - The loadState function chains multiple awaits with no parallelization
+       where possible.
+     - Risk: Low-Medium. Startup could be 1-2 seconds slower than necessary.
+
+  c) Full Library Load on Every Navigation
+     - updateLibrary() is called on route changes, which queries all games
+       from LevelDB.
+     - Risk: Medium for large libraries (100+ games).
+
+  d) Process Watching via Full Process List
+     - watchProcesses() lists ALL system processes every 2 seconds and
+       iterates through the entire game library to find matches.
+     - Risk: Medium. On Windows with many processes, this could be slow.
+       The native addon helps but still scans full process list.
+
+  e) Achievement File Scanning
+     - Achievement watching recursively searches game directories for
+       achievement files on every tick.
+     - Risk: Low-Medium. Could be slow for games with deep directory trees.
+
+  f) Sharp Image Processing
+     - Sharp is used for icon conversion but is a native module with
+       potential memory overhead.
+     - Risk: Low. Only used occasionally.
+
+7.2 SECURITY RISKS
+--------------------------------------------------------------------------------
+
+  a) Hardcoded Passwords
+     - SevenZip extractor has hardcoded passwords: "online-fix.me",
+       "steamrip.com"
+     - Risk: Low. These are well-known cracker passwords, not secrets.
+
+  b) Electron Sandbox Disabled
+     - Preload script sets sandbox: false
+     - Risk: Medium. This is common for Electron apps with native module
+       needs, but reduces the security boundary between renderer and main.
+
+  c) CORS Header Injection
+     - WindowManager injects permissive CORS headers for all non-widget URLs:
+       access-control-allow-origin: *
+     - Risk: Medium. This bypasses browser security for embedded content.
+
+  d) User-Agent Spoofing
+     - Custom User-Agent rotation via user-agents library.
+     - Risk: Low. Common pattern but could be detected by services.
+
+  e) JWT Decoding Without Verification
+     - External auth JWT is decoded client-side without signature verification.
+     - Risk: Low-Medium. The token is received from a trusted auth server,
+       but no local validation occurs.
+
+  f) Python RPC Communication
+     - The Node-Python RPC mechanism's security depends on implementation.
+     - Risk: Unknown without seeing the RPC transport details.
+
+  g) Arbitrary Executable Launching
+     - The launcher can execute any file path provided as an executable.
+     - Risk: Low. This is inherent to the application's purpose.
+
+  h) eval/executeJavaScript Usage
+     - Auth window injects large JavaScript blobs via executeJavaScript().
+     - Risk: Low-Medium. Content is hardcoded but complex; any injection
+       vulnerability in auth page could be amplified.
+
+7.3 SCALABILITY ISSUES
+--------------------------------------------------------------------------------
+
+  a) Single Active Download
+     - Only one download can be active at a time.
+     - Impact: Users cannot download multiple games simultaneously.
+
+  b) Monolithic Main Process
+     - All services run in the main process: downloads, process watching,
+       achievement watching, WebSocket, API calls, window management.
+     - Impact: A crash in any service brings down the entire application.
+
+  c) LevelDB Single-Process
+     - ClassicLevel is not designed for concurrent access.
+     - Impact: The Lock.acquireLock() pattern prevents concurrent instances
+       but could be a bottleneck.
+
+  d) In-Memory State Duplication
+     - Game data exists in LevelDB, Redux, and various service caches.
+     - Impact: Potential for state inconsistency, memory bloat.
+
+  e) No Pagination for Large Datasets
+     - Library loading retrieves ALL games at once.
+     - Impact: Degrades with large libraries.
+
+  f) Speed History Unbounded Per-Game
+     - Speed history keeps last 120 entries per game but never cleans up
+       old game entries from peakSpeeds/speedHistory maps.
+     - Impact: Memory leak for download slice if many games are downloaded.
+
+7.4 CODE QUALITY CONCERNS
+--------------------------------------------------------------------------------
+
+  a) Large Service Files
+     - WindowManager: 1055+ lines
+     - DownloadManager: 1583+ lines
+     - These files would benefit from decomposition.
+
+  b) Mixed Concerns in Single Classes
+     - WindowManager handles window creation, auth, notifications,
+       achievement notifications, and screen state persistence.
+
+  c) Any/Unknown Type Usage
+     - Several places use `any` or `unknown` types, particularly
+       around API responses and database operations.
+
+  d) Commented-Out Code
+     - Some debug/commented code present (extensive logging in loadState).
+
+  e) Error Handling Inconsistency
+     - Some errors are logged and swallowed, others are thrown.
+     - Inconsistent use of try/catch vs .catch() chains.
+
+  f) Missing Test Coverage
+     - No test files visible in the project structure.
+     - No integration or unit test framework configured.
+
+
+================================================================================
+8. FUTURE-READY RECOMMENDATIONS
+================================================================================
+
+8.1 IMMEDIATE IMPROVEMENTS (Low Effort, High Impact)
+--------------------------------------------------------------------------------
+
+  1. Memory Leak Fix - Download Slice
+     - Add cleanup of speedHistory/peakSpeeds for completed/removed games.
+     - Implement a max size for the speedHistory map.
+
+  2. Startup Parallelization
+     - Parallelize independent initialization tasks in loadState:
+       * Auth loading, API setup, and service initialization can run in parallel.
+     - Estimated improvement: 1-2s faster startup.
+
+  3. Add Basic Test Framework
+     - Set up Vitest or Jest for unit tests.
+     - Start with pure utility functions (formatName, parseBytes, etc.).
+     - Add integration tests for IPC event handlers.
+
+  4. Error Boundary Implementation
+     - Add React Error Boundaries to prevent full app crashes.
+     - Implement graceful degradation for individual components.
+
+  5. Logging Level Configuration
+     - Replace console.log/logger.log with structured logging.
+     - Add configurable log levels (debug, info, warn, error).
+     - Remove excessive debug logging in production builds.
+
+8.2 MEDIUM-TERM REFACTORING
+--------------------------------------------------------------------------------
+
+  1. Decompose Large Services
+     - Split WindowManager into: WindowFactory, AuthWindowManager,
+       NotificationWindowManager, ScreenStateManager.
+     - Split DownloadManager into: DownloadOrchestrator, TorrentDownloader,
+       HttpDownloader, QueueManager, SeedingManager.
+
+  2. Event-Driven Architecture
+     - Replace polling-based main loop with event-driven architecture:
+       * Use FileSystemWatcher for achievement files.
+       * Use native process events instead of polling process list.
+       * Use WebSocket events for real-time updates instead of polling.
+     - This would eliminate the 2-second polling interval.
+
+  3. Database Layer Abstraction
+     - Create a Repository pattern for LevelDB access.
+     - Define clear entity models with validation.
+     - Add migration support for schema changes.
+
+  4. API Client Enhancement
+     - Add request/response caching for catalogue API.
+     - Implement circuit breaker pattern for API failures.
+     - Add retry logic with exponential backoff.
+
+  5. State Consolidation
+     - Reduce state duplication between LevelDB and Redux.
+     - Consider using Redux persisted middleware for automatic sync.
+     - Define single source of truth per entity.
+
+  6. IPC Type Safety
+     - Generate IPC types from a shared schema.
+     - Add runtime validation for IPC payloads (Zod/yup).
+     - Consider tRPC-like pattern for type-safe IPC.
+
+8.3 LONG-TERM ARCHITECTURAL IMPROVEMENTS
+--------------------------------------------------------------------------------
+
+  1. Service Worker Architecture
+     - Move long-running services (download watching, achievement watching)
+       to dedicated worker processes or threads.
+     - Isolate crash domains to prevent full app crashes.
+
+  2. Reactive Download Engine
+     - Replace polling with reactive streams (RxJS or native observables).
+     - Python RPC could push events instead of being polled.
+
+  3. Plugin System
+     - Design a plugin architecture for download sources, cracker support,
+       and platform integrations.
+     - Would allow community contributions without core changes.
+
+  4. Database Migration Strategy
+     - Implement a migration system for LevelDB schema changes.
+     - Add version tracking for database compatibility.
+
+  5. Component Library
+     - Extract UI components into a shared component library.
+     - Add Storybook for component documentation.
+     - Establish design tokens system.
+
+  6. Performance Monitoring
+     - Add performance metrics collection (startup time, render time,
+       memory usage).
+     - Integrate with Sentry for performance tracing.
+     - Set up performance budgets.
+
+  7. Multi-Download Support
+     - Architect for concurrent downloads with bandwidth management.
+     - Add per-download speed limits and priority management.
+
+  8. Offline-First Architecture
+     - Implement service worker caching for catalogue data.
+     - Queue operations when offline and sync when reconnected.
+     - Better offline state indication.
+
+8.4 DEVOPS & CI/CD
+--------------------------------------------------------------------------------
+
+  1. Add CI Pipeline
+     - Automated linting, type checking, and testing on PRs.
+     - Automated builds for all platforms.
+     - Automated release notes generation.
+
+  2. Code Quality Gates
+     - SonarQube or similar for code quality tracking.
+     - PR review requirements.
+     - Automated dependency updates (Renovate/Dependabot).
+
+  3. Monitoring & Telemetry
+     - Add anonymous usage analytics for feature adoption.
+     - Crash reporting with context (already using Sentry).
+     - Performance metrics dashboard.
+
+  4. Release Management
+     - Implement feature flags for gradual rollouts.
+     - A/B testing capability for UI changes.
+     - Beta channel for early testing.
+
+
+================================================================================
+9. PROJECT STRUCTURE OVERVIEW
+================================================================================
+
+src/
+  main/
+    constants.ts              - App constants, paths, configuration
+    main.ts                   - Main process entry point
+    helpers/                  - Utility functions
+      index.ts                - Exports, file buffer, sleep, web requests
+      launch-game.ts          - Game launching logic (cross-platform)
+      download-game-helper.ts - Download URL resolution
+      download-error-handler.ts - Download error classification
+      initialize-default-themes.ts - Default theme seeding
+      is-*-available.ts       - Tool availability checks
+      reg-parser.ts           - Windows registry parsing
+      resolve-launch-command.ts - Launch command resolution
+      migrate-download-sources.ts - Data migration
+    events/                   - IPC event handlers (166 files)
+      auth/                   - Authentication events
+      autoupdater/            - Auto-update events
+      catalogue/              - Game catalogue events
+      cloud-save/             - Cloud save events
+      download-sources/       - Download source events
+      hardware/               - Hardware info events
+      helpers/                - Event helper utilities
+      leveldb/                - Database access events
+      library/                - Library management events (40+ handlers)
+      misc/                   - Miscellaneous events
+      notifications/          - Notification events
+      profile/                - Profile events
+      themes/                 - Theme events
+      torrenting/             - Download control events
+      user/                   - User events
+      user-preferences/       - Settings events
+      index.ts                - Master event registration
+      register-event.ts       - Event registration utility
+    services/                 - Core services (33 files)
+      achievements/           - Achievement watching system
+      download/               - Download engine (10 files)
+      hosters/                - File hoster integrations
+      library-sync/           - Cloud library synchronization
+      notifications/          - Notification services
+      user/                   - User-related services
+      ws/                     - WebSocket client and events
+      7zip.ts                 - 7-Zip extraction wrapper
+      cloud-sync.ts           - Cloud save synchronization
+      common-redist-manager.ts - Redistributable installation
+      decky-plugin.ts         - Steam Deck Decky plugin
+      download-sources-checker.ts - Source change detection
+      extraction-path.ts      - Extraction path utilities
+      game-executables.ts     - Executable detection
+      game-files-manager.ts   - Game file operations
+      hydra-api.ts            - HTTP API client
+      index.ts                - Service exports
+      lock.ts                 - Single-instance locking
+      logger.ts               - Logging infrastructure
+      ludusavi.ts             - Ludusavi save backup integration
+      main-loop.ts            - Main event loop
+      native-addon.ts         - Native Node.js addon wrapper
+      process-watcher.ts      - Process monitoring for playtime
+      python-rpc.ts           - Python RPC client
+      steam-250.ts            - Steam 250 chart integration
+      steam.ts                - Steam integration
+      system-path.ts          - Cross-platform path resolution
+      umu.ts                  - UMU (Proton) integration
+      update-manager.ts       - App update management
+      window-manager.ts       - Window creation and management
+      wine.ts                 - Wine compatibility layer
+      power-save-blocker.ts   - Sleep prevention
+    level/                    - LevelDB configuration
+      index.ts                - Database exports
+      level.ts                - ClassicLevel instance
+      sublevels/              - Database sublevels (12 files)
+        downloads.ts          - Download records
+        games.ts              - Library games
+        game-achievements.ts  - Achievement data
+        game-shop-cache.ts    - Cached API responses
+        game-shop-assets.ts   - Game assets
+        game-stats-cache.ts   - Statistics cache
+        download-sources.ts   - Source configurations
+        local-notifications.ts - Notification records
+        themes.ts             - Theme definitions
+        keys.ts               - Key generation utilities
+        download-sources-check-timestamp.ts
+    generated/                - Protocol Buffers generated code
+  preload/
+    index.ts                  - Preload script (contextBridge setup)
+  renderer/
+    src/
+      main.tsx                - Renderer entry point
+      app.tsx                 - Root application component
+      store.ts                - Redux store configuration
+      helpers.ts              - Renderer utility functions
+      constants.ts            - Renderer constants
+      cookies.ts              - Cookie interceptor setup
+      logger.ts               - Renderer logger
+      declaration.d.ts        - Type declarations
+      vite-env.d.ts           - Vite environment types
+      scss/
+        globals.scss          - Global SCSS variables
+      features/               - Redux slices (13 files)
+        download-slice.ts     - Download state
+        library-slice.ts      - Library state
+        use-preferences-slice.ts - User preferences
+        window-slice.ts       - Window state
+        toast-slice.ts        - Toast state
+        user-details-slice.ts - User profile state
+        game-running.slice.ts - Running game state
+        subscription-slice.ts - Subscription state
+        catalogue-search.ts   - Search state
+        collections-slice.ts  - Collections state
+        auth-slice.ts         - Auth state
+        index.ts              - Feature exports
+      context/                - React contexts
+        game-details/         - Game details context
+        settings/             - Settings context
+        user-profile/         - User profile context
+        cloud-sync/           - Cloud sync context
+        index.ts              - Context exports
+      hooks/                  - Custom React hooks (18 files)
+      components/             - React components (37+ files)
+      pages/                  - Route page components
+        home/                 - Home page
+        catalogue/            - Game catalogue
+        library/              - Game library
+        downloads/            - Download management
+        game-details/         - Game details page
+        settings/             - Settings page
+        profile/              - User profile page
+        achievements/         - Achievements page
+        notifications/        - Notifications page
+        theme-editor/         - Theme editor page
+        game-launcher/        - Game launcher page
+        shared-modals/        - Shared modal components
+      assets/                 - Static assets (images, audio)
+      services/
+        leveldb.service.ts    - Renderer LevelDB service
+      logger/                 - Renderer logging
+  shared/
+    index.ts                  - Shared utilities (formatName, etc.)
+    constants.ts              - Shared constants (Downloader enum, etc.)
+    char-map.ts               - Character mapping
+    html-sanitizer.ts         - HTML sanitization
+  types/
+    index.ts                  - Type exports
+    download.types.ts         - Download type definitions
+    game.types.ts             - Game type definitions
+    level.types.ts            - LevelDB type definitions
+    theme.types.ts            - Theme type definitions
+    steam.types.ts            - Steam type definitions
+    ludusavi.types.ts         - Ludusavi type definitions
+    how-long-to-beat.types.ts - HLTB type definitions
+  locales/                    - i18n translation files
+
+resources/                    - Build resources (icons, images)
+binaries/                     - Platform binaries (7z, 7zz, 7zzs, umu-run)
+build/                        - Build configuration resources
+scripts/                      - Build and post-install scripts
+python_rpc/                   - Python RPC service (hydra-python-rpc)
+native/                       - Native Node.js addon (hydra-native)
+
+
+================================================================================
+10. APPENDIX - KEY FILE INVENTORY
+================================================================================
+
+10.1 ENTRY POINTS
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  src/main/main.ts                    | Main process entry, calls loadState()
+  src/renderer/src/main.tsx           | Renderer entry, mounts React app
+  src/preload/index.ts                | Preload script, contextBridge setup
+
+10.2 CONFIGURATION
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  package.json                        | Dependencies, scripts, metadata
+  electron-builder.yml                | Build and packaging configuration
+  electron.vite.config.ts             | Vite configuration for Electron
+  tsconfig*.json                      | TypeScript configurations
+  .eslintrc.cjs                       | ESLint configuration
+  .prettierrc.cjs                     | Prettier configuration
+  commitlint.config.js                | Commit message linting
+  .npmrc                              | npm configuration
+  .env.example                        | Environment variable template
+
+10.3 CRITICAL SERVICE FILES
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  src/main/services/hydra-api.ts      | HTTP API client with auth
+  src/main/services/window-manager.ts | All window management
+  src/main/services/main-loop.ts      | Main event loop
+  src/main/services/process-watcher.ts| Process monitoring for playtime
+  src/main/services/7zip.ts           | 7-Zip extraction
+  src/main/services/game-files-manager.ts | Game file operations
+  src/main/services/python-rpc.ts     | Python RPC for torrents
+  src/main/services/logger.ts         | Logging infrastructure
+  src/main/services/lock.ts           | Single-instance lock
+  src/main/services/cloud-sync.ts     | Cloud save sync
+  src/main/services/ludusavi.ts       | Ludusavi integration
+  src/main/services/update-manager.ts | Auto-update management
+  src/main/services/wine.ts           | Wine compatibility
+  src/main/services/umu.ts            | UMU/Proton integration
+
+10.4 DOWNLOAD ENGINE
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  src/main/services/download/download-manager.ts | Main download orchestrator
+  src/main/services/download/js-http-downloader.ts | HTTP downloader
+  src/main/services/download/real-debrid.ts | RealDebrid client
+  src/main/services/download/premiumize.ts | Premiumize client
+  src/main/services/download/all-debrid.ts | AllDebrid client
+  src/main/services/download/torbox.ts | TorBox client
+  src/main/services/download/hydra-debrid.ts | Hydra debrid client
+  src/main/services/download/helpers.ts | Download utilities
+  src/main/services/download/types.ts  | Download type definitions
+
+10.5 ACHIEVEMENTS
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  src/main/services/achievements/achievement-watcher-manager.ts | Main manager
+  src/main/services/achievements/find-achivement-files.ts | File discovery
+  src/main/services/achievements/parse-achievement-file.ts | File parsing
+  src/main/services/achievements/merge-achievements.ts | Achievement merging
+  src/main/services/achievements/get-game-achievement-data.ts | Data retrieval
+
+10.6 REDUX STATE
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  src/renderer/src/store.ts           | Redux store configuration
+  src/renderer/src/features/download-slice.ts | Download state
+  src/renderer/src/features/library-slice.ts | Library state
+  src/renderer/src/features/use-preferences-slice.ts | User preferences
+  src/renderer/src/features/toast-slice.ts | Toast notifications
+  src/renderer/src/features/subscription-slice.ts | Subscription state
+  src/renderer/src/features/user-details-slice.ts | User profile state
+  src/renderer/src/features/game-running.slice.ts | Running game state
+  src/renderer/src/features/window-slice.ts | Window state
+  src/renderer/src/features/catalogue-search.ts | Search state
+  src/renderer/src/features/collections-slice.ts | Collections state
+  src/renderer/src/features/auth-slice.ts | Auth state
+
+10.7 LEVELDB
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  src/main/level/level.ts             | ClassicLevel instance
+  src/main/level/sublevels/games.ts   | Games sublevel
+  src/main/level/sublevels/downloads.ts | Downloads sublevel
+  src/main/level/sublevels/game-achievements.ts | Achievements sublevel
+  src/main/level/sublevels/themes.ts  | Themes sublevel
+  src/main/level/sublevels/keys.ts    | Key generation utilities
+  src/renderer/src/services/leveldb.service.ts | Renderer LevelDB client
+
+10.8 WEBSOCKET
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  src/main/services/ws/ws-client.ts   | WebSocket client
+  src/main/services/ws/events/friend-request.ts | Friend request events
+  src/main/services/ws/events/friend-game-session.ts | Friend session events
+  src/main/services/ws/events/notification.ts | Notification events
+
+10.9 STYLING
+--------------------------------------------------------------------------------
+
+  File                                | Purpose
+  ----------------------------------- | --------------------------------------
+  src/renderer/src/scss/globals.scss  | Global SCSS variables
+  src/renderer/src/app.scss           | App-level styles
+
+
+================================================================================
+                    END OF TECHNICAL SYSTEM REPORT
+================================================================================
+
+This report was generated through comprehensive analysis of the MO3TAZ Launcher
+codebase. It serves as a technical reference for current and future developers
+working on the project.
+
+For questions or clarifications, refer to the source files listed in this
+document. All file paths are relative to the project root directory.
+
+================================================================================

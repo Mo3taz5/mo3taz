@@ -1,0 +1,169 @@
+[2026-04-10 18:14:20.895] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:14:21.897] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:20:24.722] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:20:25.729] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:30:29.430] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:30:30.435] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:38:26.856] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:38:28.006] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:39:34.516] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 18:39:35.531] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 20:15:13.015] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 20:15:14.018] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 20:16:22.228] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 20:16:23.232] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 20:19:56.902] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 20:19:57.906] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 20:20:59.928] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 20:21:00.931] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 22:11:04.839] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 22:11:05.843] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 22:46:36.526] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 22:46:37.530] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 22:51:42.717] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 22:51:43.720] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 22:54:50.955] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 22:54:51.966] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 23:37:56.432] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-10 23:37:57.437] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 01:08:57.263] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 01:08:58.266] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 01:10:09.598] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 01:10:10.602] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 01:25:04.212] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 01:25:05.215] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 12:27:59.596] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 12:28:00.601] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 18:10:49.697] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 18:10:51.205] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 18:13:11.195] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 18:13:38.259] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 18:13:49.656] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 18:13:59.688] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 18:35:40.313] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 21:28:43.042] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:26:17.205] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 22:26:19.169] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 22:26:42.918] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:26:58.851] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:27:26.220] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:40:18.341] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:40:27.368] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:40:41.904] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:41:36.127] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:42:43.027] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:42:57.099] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:44:06.737] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:45:58.359] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:45:59.040] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:46:00.056] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:46:00.864] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:46:01.470] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 22:47:12.918] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 22:47:14.057] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 22:47:17.317] [warn]  (main)         Window ready-to-show timeout reached, showing anyway
+[2026-04-11 22:47:43.654] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 23:07:08.348] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 23:07:09.008] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 23:07:13.197] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 23:08:51.526] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-11 23:25:09.296] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-11 23:25:11.234] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 00:12:16.482] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 00:12:17.620] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 00:14:06.700] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 00:14:09.271] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 00:14:13.359] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 00:14:21.761] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 00:14:22.590] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 11:38:08.627] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 11:38:10.308] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 11:39:11.730] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 11:39:15.017] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 11:39:15.307] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 11:43:23.958] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 11:43:25.555] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 11:43:32.348] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 12:25:38.501] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 12:25:39.641] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 12:25:42.708] [warn]  (main)         Window ready-to-show timeout reached, showing anyway
+[2026-04-12 13:20:51.007] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 13:20:52.453] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 13:20:59.242] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 13:21:35.127] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 13:21:35.293] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 13:50:06.399] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 13:50:08.295] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 13:50:13.625] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 14:20:18.418] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 14:20:20.147] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 14:20:56.695] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 14:20:56.856] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 14:21:49.243] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 14:22:00.685] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 14:27:11.872] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 14:29:53.187] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 14:44:17.816] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 14:44:18.956] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 14:44:37.674] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 14:44:39.278] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:13:38.203] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:13:39.719] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:49:48.910] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:49:50.025] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:50:13.395] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 15:52:27.441] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:52:28.710] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:52:59.408] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:53:01.032] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:58:33.537] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 15:58:34.661] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:13:29.712] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:13:31.676] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:30:02.276] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:30:04.011] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:54:48.599] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:54:50.178] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:55:53.009] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:55:55.316] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 16:56:19.559] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 16:56:47.933] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 16:56:49.525] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 16:56:50.689] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 16:56:52.518] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 16:56:52.757] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 16:57:08.737] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 16:57:15.918] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 17:14:04.215] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 17:14:05.724] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 17:23:35.045] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 17:23:36.483] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 17:31:44.923] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 17:31:46.448] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 17:46:00.322] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 17:46:02.219] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 17:46:45.566] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 17:47:27.668] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 18:50:30.326] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 18:50:31.474] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 18:50:34.651] [warn]  (main)         Window ready-to-show timeout reached, showing anyway
+[2026-04-12 18:57:42.076] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 18:57:43.543] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 18:57:55.572] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 18:57:59.598] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 19:07:19.017] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 19:07:20.135] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 19:07:42.263] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 19:08:15.664] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 19:36:44.786] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 19:36:46.266] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 19:37:06.521] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 19:37:32.622] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 19:38:11.711] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 19:38:12.163] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 19:38:57.429] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 19:39:06.322] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 20:30:51.377] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 20:30:53.167] [warn]  (main)         WS disconnected due to auth-failed
+[2026-04-12 20:33:30.647] [warn]  (renderer)     Failed to autoplay HLS video: undefined
+[2026-04-12 20:34:15.496] [warn]  (renderer)     Failed to autoplay HLS video: undefined

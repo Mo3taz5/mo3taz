@@ -1,0 +1,151 @@
+.security-dashboard {
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+
+  &__timestamp {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  &__status-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+
+  &__shield {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__status-info {
+    h3 {
+      margin: 0 0 0.25rem;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0;
+      opacity: 0.7;
+    }
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+  }
+
+  &__stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__stat-label {
+    font-size: 0.875rem;
+    opacity: 0.7;
+  }
+
+  &__events {
+    h3 {
+      margin: 0 0 1rem;
+      font-size: 1.125rem;
+    }
+  }
+
+  &__empty {
+    text-align: center;
+    opacity: 0.5;
+    padding: 2rem;
+  }
+
+  &__events-table {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  &__events-header {
+    display: grid;
+    grid-template-columns: 80px 100px 100px 1fr;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  &__event-row {
+    display: grid;
+    grid-template-columns: 80px 100px 100px 1fr;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.875rem;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__event-time {
+    opacity: 0.7;
+  }
+
+  &__event-threat {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  &__event-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    opacity: 0.7;
+  }
+
+  &__warning {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(234, 179, 8, 0.2);
+    border: 1px solid #eab308;
+    border-radius: 8px;
+
+    p {
+      margin: 0;
+      color: #eab308;
+    }
+  }
+}

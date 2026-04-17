@@ -1,0 +1,140 @@
+@use "../../scss/globals.scss";
+
+.quarantine-history {
+  display: flex;
+  flex-direction: column;
+  gap: globals.$spacing-unit * 2;
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: globals.$spacing-unit * 2;
+
+    h2 {
+      margin: 0 0 globals.$spacing-unit * 0.5;
+    }
+
+    p {
+      margin: 0;
+      color: globals.$muted-color;
+      max-width: 720px;
+    }
+  }
+
+  &__summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: globals.$spacing-unit;
+    color: globals.$muted-color;
+    font-size: 14px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: globals.$spacing-unit;
+  }
+
+  &__card {
+    background: globals.$dark-background-color;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    padding: globals.$spacing-unit * 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: globals.$spacing-unit;
+  }
+
+  &__card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: globals.$spacing-unit;
+  }
+
+  &__badge-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: globals.$spacing-unit;
+  }
+
+  &__badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+
+    &--low {
+      background: rgba(46, 160, 67, 0.16);
+      color: #8bffac;
+    }
+
+    &--high {
+      background: rgba(219, 109, 40, 0.16);
+      color: #ffbe8c;
+    }
+  }
+
+  &__signature {
+    color: globals.$body-color;
+    font-weight: 500;
+  }
+
+  &__meta {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: globals.$spacing-unit;
+
+    p {
+      margin: 4px 0 0;
+      color: globals.$body-color;
+      word-break: break-word;
+    }
+  }
+
+  &__label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: globals.$muted-color;
+  }
+
+  &__path {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", monospace;
+    font-size: 13px;
+  }
+
+  &__empty-state {
+    padding: globals.$spacing-unit * 2;
+    border-radius: 12px;
+    border: 1px dashed rgba(255, 255, 255, 0.12);
+    color: globals.$muted-color;
+
+    &--error {
+      color: #ff8e8e;
+      border-color: rgba(255, 142, 142, 0.3);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .quarantine-history {
+    &__header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    &__card-header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+}

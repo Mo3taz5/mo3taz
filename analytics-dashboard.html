@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MO3TAZ Launcher Analytics Dashboard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .dashboard {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .stat-card h3 {
+      color: #667eea;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-card .value {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #2d3748;
+    }
+
+    .section {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: #2d3748;
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+      border-bottom: 2px solid #667eea;
+      padding-bottom: 0.5rem;
+    }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .chart-item {
+      background: #f7fafc;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+
+    .chart-item h4 {
+      color: #4a5568;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    .bar {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .bar-label {
+      min-width: 100px;
+      font-size: 0.875rem;
+      color: #4a5568;
+    }
+
+    .bar-fill {
+      flex: 1;
+      height: 24px;
+      background: #e2e8f0;
+      border-radius: 12px;
+      overflow: hidden;
+      margin: 0 0.5rem;
+    }
+
+    .bar-fill-inner {
+      height: 100%;
+      background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+      transition: width 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 0.5rem;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+
+    .bar-value {
+      min-width: 50px;
+      text-align: right;
+      font-weight: bold;
+      color: #2d3748;
+    }
+
+    .loading {
+      text-align: center;
+      color: white;
+      font-size: 1.25rem;
+      padding: 4rem;
+    }
+
+    .error {
+      background: #fed7d7;
+      color: #c53030;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .refresh-btn {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: white;
+      color: #667eea;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: all 0.2s;
+    }
+
+    .refresh-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+
+    .last-updated {
+      text-align: center;
+      color: white;
+      margin-top: 1rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <h1>📊 MO3TAZ Launcher Analytics</h1>
+    
+    <div id="content">
+      <div class="loading">Loading analytics...</div>
+    </div>
+
+    <div class="last-updated" id="lastUpdated"></div>
+  </div>
+
+  <button class="refresh-btn" onclick="loadAnalytics()">🔄 Refresh</button>
+
+  <script>
+    const ANALYTICS_URL = 'http://localhost:3001/analytics';
+
+    async function loadAnalytics() {
+      try {
+        const response = await fetch(`${ANALYTICS_URL}/summary`);
+        const data = await response.json();
+
+        renderDashboard(data);
+        document.getElementById('lastUpdated').textContent = 
+          `Last updated: ${new Date().toLocaleString()}`;
+      } catch (error) {
+        document.getElementById('content').innerHTML = `
+          <div class="error">
+            ❌ Failed to load analytics data. Make sure your analytics server is running at ${ANALYTICS_URL}
+            <br><small>${error.message}</small>
+          </div>
+        `;
+      }
+    }
+
+    function renderDashboard(data) {
+      const loginSuccessRate = data.loginStats.attempts > 0 
+        ? ((data.loginStats.successes / data.loginStats.attempts) * 100).toFixed(1) 
+        : 'N/A';
+
+      const html = `
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>Total Events</h3>
+            <div class="value">${data.totalEvents?.toLocaleString() || 0}</div>
+          </div>
+          
+          <div class="stat-card">
+            <h3>Unique Users</h3>
+            <div class="value">${data.uniqueUsers || 0}</div>
+          </div>
+          
+          <div class="stat-card">
+            <h3>Login Success Rate</h3>
+            <div class="value">${loginSuccessRate}${loginSuccessRate !== 'N/A' ? '%' : ''}</div>
+          </div>
+          
+          <div class="stat-card">
+            <h3>App Launches</h3>
+            <div class="value">${data.eventsByType?.app_launch || 0}</div>
+          </div>
+        </div>
+
+        <div class="chart-grid">
+          <div class="section">
+            <h2>Events by Type</h2>
+            ${renderBarChart(data.eventsByType || {})}
+          </div>
+
+          <div class="section">
+            <h2>Platform Distribution</h2>
+            ${renderBarChart(data.eventsByPlatform || {})}
+          </div>
+
+          <div class="section">
+            <h2>Language Distribution</h2>
+            ${renderBarChart(data.eventsByLanguage || {})}
+          </div>
+
+          <div class="section">
+            <h2>App Versions</h2>
+            ${renderBarChart(data.appVersions || {})}
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Login Statistics</h2>
+          <div class="stats-grid" style="margin-top: 1rem;">
+            <div class="stat-card">
+              <h3>Total Attempts</h3>
+              <div class="value">${data.loginStats?.attempts || 0}</div>
+            </div>
+            <div class="stat-card">
+              <h3>Successful</h3>
+              <div class="value" style="color: #48bb78;">${data.loginStats?.successes || 0}</div>
+            </div>
+            <div class="stat-card">
+              <h3>Failed</h3>
+              <div class="value" style="color: #f56565;">${data.loginStats?.failures || 0}</div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('content').innerHTML = html;
+    }
+
+    function renderBarChart(data) {
+      const entries = Object.entries(data).sort((a, b) => b[1] - a[1]);
+      const maxValue = Math.max(...entries.map(e => e[1]), 1);
+
+      if (entries.length === 0) {
+        return '<p style="color: #a0aec0; text-align: center; padding: 2rem;">No data available</p>';
+      }
+
+      return entries.map(([label, value]) => {
+        const percentage = (value / maxValue) * 100;
+        return `
+          <div class="bar">
+            <div class="bar-label">${label}</div>
+            <div class="bar-fill">
+              <div class="bar-fill-inner" style="width: ${percentage}%">
+                ${value}
+              </div>
+            </div>
+            <div class="bar-value">${value}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Load analytics on page load
+    loadAnalytics();
+
+    // Auto-refresh every 30 seconds
+    setInterval(loadAnalytics, 30000);
+  </script>
+</body>
+</html>

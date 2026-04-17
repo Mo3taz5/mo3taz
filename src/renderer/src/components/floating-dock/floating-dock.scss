@@ -1,0 +1,124 @@
+@use "../../scss/globals.scss";
+
+.floating-dock {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  pointer-events: auto;
+
+  &__container {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    padding: globals.$spacing-unit globals.$spacing-unit * 2;
+    background: rgba(10, 10, 15, 0.65);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.4),
+      0 2px 8px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 16px;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    &--active {
+      background: rgba(91, 141, 239, 0.15);
+
+      .floating-dock__icon svg {
+        color: globals.$neon-teal;
+        filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.4));
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background: globals.$neon-teal;
+        box-shadow: 0 0 6px globals.$neon-teal;
+      }
+    }
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    svg {
+      color: globals.$muted-color;
+      transition: color 0.2s ease;
+    }
+
+    &:hover svg {
+      color: #ffffff;
+    }
+  }
+
+  &__download-indicator {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: globals.$neon-teal;
+    box-shadow: 0 0 8px globals.$neon-teal;
+    animation: pulse-download 2s ease-in-out infinite;
+  }
+
+  &__label {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 10px;
+    background: rgba(10, 10, 15, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 500;
+    color: globals.$heading-color;
+    white-space: nowrap;
+    pointer-events: none;
+    letter-spacing: 0.3px;
+  }
+}
+
+@keyframes pulse-download {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+}

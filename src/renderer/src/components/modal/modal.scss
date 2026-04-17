@@ -1,0 +1,117 @@
+@use "../../scss/globals.scss";
+
+.modal {
+  animation: scale-fade-in 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal
+    none running;
+  background: linear-gradient(
+    180deg,
+    globals.$elevated-background 0%,
+    globals.$card-background 100%
+  );
+  border-radius: 12px;
+  min-width: 400px;
+  max-width: 600px;
+  color: globals.$body-color;
+  max-height: 100%;
+  border: 1px solid globals.$border-glow;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow:
+    0 24px 48px rgba(0, 0, 0, 0.4),
+    0 0 32px rgba(0, 240, 255, 0.05);
+
+  &--closing {
+    animation-name: scale-fade-out;
+    opacity: 0;
+  }
+
+  &--large {
+    width: 90vw;
+    max-width: 90vw;
+    height: 80vh;
+    max-height: 80vh;
+  }
+
+  &__content {
+    height: 100%;
+    overflow: auto;
+    padding: calc(globals.$spacing-unit * 3) calc(globals.$spacing-unit * 2);
+
+    &--no-padding {
+      padding: 0;
+    }
+  }
+
+  &__header {
+    display: flex;
+    gap: globals.$spacing-unit;
+    padding: calc(globals.$spacing-unit * 2);
+    border-bottom: 1px solid globals.$border-color;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 240, 255, 0.03) 0%,
+      transparent 100%
+    );
+
+    &-title {
+      display: flex;
+      gap: 4px;
+      flex-direction: column;
+      color: globals.$heading-color;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+  }
+
+  &__close-button {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    align-self: flex-start;
+    border-radius: 6px;
+    padding: 4px;
+
+    &:hover {
+      opacity: 1;
+      background-color: rgba(255, 59, 92, 0.1);
+      color: globals.$error-color;
+    }
+  }
+
+  &__close-button-icon {
+    color: globals.$body-color;
+    transition: color 0.2s ease;
+  }
+
+  &:hover &__close-button-icon {
+    color: globals.$error-color;
+  }
+}
+
+@keyframes scale-fade-in {
+  0% {
+    opacity: 0;
+    scale: 0.9;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-fade-out {
+  0% {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    scale: 0.95;
+    transform: translateY(8px);
+  }
+}

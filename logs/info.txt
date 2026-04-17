@@ -1,0 +1,1809 @@
+[2026-04-10 18:14:20.701] [info]  (main)         Acquired the lock
+[2026-04-10 18:14:20.889] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 18:14:20.896] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 18:14:20.903] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 18:14:20.903] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 18:20:24.590] [info]  (main)         Acquired the lock
+[2026-04-10 18:20:24.717] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 18:20:24.727] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 18:20:24.732] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 18:20:24.733] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 18:30:29.294] [info]  (main)         Acquired the lock
+[2026-04-10 18:30:29.426] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 18:30:29.431] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 18:30:29.458] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 18:30:29.459] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 18:36:17.081] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-10 18:36:19.678] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-10 18:38:26.611] [info]  (main)         Acquired the lock
+[2026-04-10 18:38:26.771] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 18:38:26.876] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 18:38:26.891] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 18:38:26.892] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 18:39:34.348] [info]  (main)         Acquired the lock
+[2026-04-10 18:39:34.511] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 18:39:34.517] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 18:39:34.526] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 18:39:34.526] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 20:13:17.117] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-10 20:13:17.539] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-10 20:15:12.903] [info]  (main)         Acquired the lock
+[2026-04-10 20:15:13.009] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 20:15:13.016] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 20:15:13.019] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 20:15:13.020] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 20:16:22.070] [info]  (main)         Acquired the lock
+[2026-04-10 20:16:22.222] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 20:16:22.230] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 20:16:22.233] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 20:16:22.233] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 20:19:56.760] [info]  (main)         Acquired the lock
+[2026-04-10 20:19:56.897] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 20:19:56.904] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 20:19:56.909] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 20:19:56.910] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 20:20:59.830] [info]  (main)         Acquired the lock
+[2026-04-10 20:20:59.923] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 20:20:59.928] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 20:20:59.932] [info]  (main)         Found 0 total games, 0 non-custom games
+[2026-04-10 20:20:59.933] [info]  (main)         No non-custom games found, skipping download sources check
+[2026-04-10 20:36:39.961] [info]  (main)         Checking for update
+[2026-04-10 20:36:39.976] [info]  (main)         Generated new staging user ID: 156cd966-4528-54a1-81e6-3e6f41ad2801
+[2026-04-10 20:36:40.492] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-10 20:36:42.319] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-10 20:36:42.570] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-10 20:36:42.571] [info]  (main)         Check for updates result: [object Object]
+[2026-04-10 20:37:36.572] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-10 20:37:36.573] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-10 20:38:04.799] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-10 20:38:47.630] [info]  (main)         Checking for update
+[2026-04-10 20:38:47.834] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-10 20:38:47.933] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-10 20:38:49.068] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-10 20:38:49.069] [info]  (main)         Check for updates result: [object Object]
+[2026-04-10 21:12:17.720] [info]  (main)         Checking for update
+[2026-04-10 21:12:17.958] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-10 21:12:18.309] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-10 21:12:19.119] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-10 21:12:19.120] [info]  (main)         Check for updates result: [object Object]
+[2026-04-10 21:19:07.239] [info]  (main)         No sound file found for theme Hydra Aincrad in store
+[2026-04-10 21:20:18.530] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-10 21:20:18.531] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-10 21:20:23.540] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-10 21:20:23.540] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-10 22:11:04.743] [info]  (main)         Acquired the lock
+[2026-04-10 22:11:04.830] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 22:11:04.840] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 22:11:04.845] [info]  (main)         Found 1 total games, 1 non-custom games
+[2026-04-10 22:11:04.860] [info]  (main)         Found 0 download sources: 
+[2026-04-10 22:11:04.861] [info]  (main)         No download sources found, skipping download sources check
+[2026-04-10 22:46:36.299] [info]  (main)         Acquired the lock
+[2026-04-10 22:46:36.519] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 22:46:36.528] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 22:46:36.554] [info]  (main)         Found 1 total games, 1 non-custom games
+[2026-04-10 22:46:37.077] [info]  (main)         Found 0 download sources: 
+[2026-04-10 22:46:37.078] [info]  (main)         No download sources found, skipping download sources check
+[2026-04-10 22:51:42.618] [info]  (main)         Acquired the lock
+[2026-04-10 22:51:42.713] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 22:51:42.718] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 22:51:42.720] [info]  (main)         Found 1 total games, 1 non-custom games
+[2026-04-10 22:51:42.733] [info]  (main)         Found 0 download sources: 
+[2026-04-10 22:51:42.734] [info]  (main)         No download sources found, skipping download sources check
+[2026-04-10 22:52:36.153] [info]  (main)         Checking for update
+[2026-04-10 22:52:37.218] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-10 22:52:38.277] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-10 22:52:38.495] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-10 22:52:38.496] [info]  (main)         Check for updates result: [object Object]
+[2026-04-10 22:54:50.807] [info]  (main)         Acquired the lock
+[2026-04-10 22:54:50.946] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 22:54:50.957] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 22:54:50.973] [info]  (main)         Found 1 total games, 1 non-custom games
+[2026-04-10 22:54:50.992] [info]  (main)         Found 1 download sources: v6n5BBgm
+[2026-04-10 22:54:50.997] [info]  (main)         Using since: 2026-04-09T19:54:50.993Z (from last app start)
+[2026-04-10 22:54:50.997] [info]  (main)         Checking download sources changes for 1 non-custom games since 2026-04-09T19:54:50.993Z
+[2026-04-10 22:54:50.998] [info]  (main)         Making API call to HydraApi.checkDownloadSourcesChanges with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T19:54:50.993Z'
+}
+[2026-04-10 23:37:56.206] [info]  (main)         Acquired the lock
+[2026-04-10 23:37:56.420] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-10 23:37:56.434] [info]  (main)         Reconnecting in 1s...
+[2026-04-10 23:37:56.442] [info]  (main)         Found 1 total games, 1 non-custom games
+[2026-04-10 23:37:56.770] [info]  (main)         Found 1 download sources: v6n5BBgm
+[2026-04-10 23:37:56.774] [info]  (main)         Using since: 2026-04-09T20:37:56.773Z (from last app start)
+[2026-04-10 23:37:56.776] [info]  (main)         Checking download sources changes for 1 non-custom games since 2026-04-09T20:37:56.773Z
+[2026-04-10 23:37:56.777] [info]  (main)         Making API call to HydraApi.checkDownloadSourcesChanges with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T20:37:56.773Z'
+}
+[2026-04-11 01:08:57.160] [info]  (main)         Acquired the lock
+[2026-04-11 01:08:57.256] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 01:08:57.265] [info]  (main)         Reconnecting in 1s...
+[2026-04-11 01:08:57.276] [info]  (main)         Found 1 total games, 1 non-custom games
+[2026-04-11 01:08:57.287] [info]  (main)         Found 1 download sources: v6n5BBgm
+[2026-04-11 01:08:57.289] [info]  (main)         Using since: 2026-04-09T22:08:57.289Z (from last app start)
+[2026-04-11 01:08:57.290] [info]  (main)         Checking download sources changes for 1 non-custom games since 2026-04-09T22:08:57.289Z
+[2026-04-11 01:08:57.291] [info]  (main)         Making API call to HydraApi.checkDownloadSourcesChanges with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T22:08:57.289Z'
+}
+[2026-04-11 01:10:09.504] [info]  (main)         Acquired the lock
+[2026-04-11 01:10:09.593] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 01:10:09.599] [info]  (main)         Reconnecting in 1s...
+[2026-04-11 01:10:09.608] [info]  (main)         Found 1 total games, 1 non-custom games
+[2026-04-11 01:10:09.621] [info]  (main)         Found 1 download sources: v6n5BBgm
+[2026-04-11 01:10:09.624] [info]  (main)         Using since: 2026-04-09T22:10:09.624Z (from last app start)
+[2026-04-11 01:10:09.624] [info]  (main)         Checking download sources changes for 1 non-custom games since 2026-04-09T22:10:09.624Z
+[2026-04-11 01:10:09.625] [info]  (main)         Making API call to HydraApi.checkDownloadSourcesChanges with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T22:10:09.624Z'
+}
+[2026-04-11 01:25:04.074] [info]  (main)         Loaded Steam OS theme from: D:\sdk\test\hydra\dist\win-unpacked\resources\steam-os-theme.css
+[2026-04-11 01:25:04.088] [info]  (main)         Acquired the lock
+[2026-04-11 01:25:04.092] [info]  (main)         Steam OS theme initialized successfully
+[2026-04-11 01:25:04.206] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 01:25:04.214] [info]  (main)         Reconnecting in 1s...
+[2026-04-11 01:25:04.268] [info]  (main)         Found 1 total games, 1 non-custom games
+[2026-04-11 01:25:04.293] [info]  (main)         Found 1 download sources: v6n5BBgm
+[2026-04-11 01:25:04.300] [info]  (main)         Using since: 2026-04-09T22:25:04.300Z (from last app start)
+[2026-04-11 01:25:04.301] [info]  (main)         Checking download sources changes for 1 non-custom games since 2026-04-09T22:25:04.300Z
+[2026-04-11 01:25:04.302] [info]  (main)         Making API call to HydraApi.checkDownloadSourcesChanges with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T22:25:04.300Z'
+}
+[2026-04-11 01:25:05.080] [info]  (main)         Checking for update
+[2026-04-11 01:25:05.339] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 01:25:07.277] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 01:25:07.829] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-11 01:25:07.829] [info]  (main)         Check for updates result: [object Object]
+[2026-04-11 01:27:45.315] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-11 01:27:45.316] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-11 01:28:01.600] [info]  (main)         Checking for update
+[2026-04-11 01:28:02.763] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 01:28:02.849] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 01:28:03.746] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-11 01:28:03.747] [info]  (main)         Check for updates result: [object Object]
+[2026-04-11 01:33:09.262] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 02:01:44.188] [info]  (main)         Released the lock
+[2026-04-11 12:27:59.480] [info]  (main)         Acquired the lock
+[2026-04-11 12:27:59.586] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 12:27:59.600] [info]  (main)         Reconnecting in 1s...
+[2026-04-11 12:27:59.603] [info]  (main)         Found 2 total games, 2 non-custom games
+[2026-04-11 12:27:59.658] [info]  (main)         Found 2 download sources: ac028d42-a3df-4be6-9cbb-726fbe0d3b28, v6n5BBgm
+[2026-04-11 12:27:59.661] [info]  (main)         Using since: 2026-04-10T09:27:59.660Z (from last app start)
+[2026-04-11 12:27:59.662] [info]  (main)         Checking download sources changes for 2 non-custom games since 2026-04-10T09:27:59.660Z
+[2026-04-11 12:27:59.663] [info]  (main)         Making API call to HydraApi.checkDownloadSourcesChanges with: {
+  downloadSourceIds: [ 'ac028d42-a3df-4be6-9cbb-726fbe0d3b28', 'v6n5BBgm' ],
+  gamesCount: 2,
+  since: '2026-04-10T09:27:59.660Z'
+}
+[2026-04-11 12:43:57.348] [info]  (main)         Checking for update
+[2026-04-11 12:43:58.990] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 12:44:00.024] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 12:44:00.166] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-11 12:44:00.167] [info]  (main)         Check for updates result: [object Object]
+[2026-04-11 18:07:11.820] [info]  (main)         Checking for update
+[2026-04-11 18:07:12.075] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 18:07:12.681] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 18:07:12.966] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-11 18:07:12.966] [info]  (main)         Check for updates result: [object Object]
+[2026-04-11 18:10:49.373] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-11 18:10:49.392] [info]  (main)         Acquired the lock
+[2026-04-11 18:10:49.470] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 18:10:49.492] [info]  (main)         Found 2 total games, 2 non-custom games
+[2026-04-11 18:10:49.503] [info]  (main)         Found 1 download sources: v6n5BBgm
+[2026-04-11 18:10:49.507] [info]  (main)         Using since: 2026-04-10T15:10:49.507Z (from last app start)
+[2026-04-11 18:10:49.508] [info]  (main)         Checking download sources changes for 2 non-custom games since 2026-04-10T15:10:49.507Z
+[2026-04-11 18:10:49.509] [info]  (main)         Making API call to HydraApi.checkDownloadSourcesChanges with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 2,
+  since: '2026-04-10T15:10:49.507Z'
+}
+[2026-04-11 18:10:49.699] [info]  (main)         Reconnecting in 1s...
+[2026-04-11 18:10:49.700] [info]  (main)         API call completed, response: []
+[2026-04-11 18:10:49.701] [info]  (main)         Saved 'since' value: 2026-04-10T15:10:49.507Z (for modal comparison)
+[2026-04-11 18:10:49.703] [info]  (main)         Updated baseline to: 2026-04-11T15:10:49.702Z (will be 'since' on next app start)
+[2026-04-11 18:10:49.704] [info]  (main)         Found new download options for 0 games
+[2026-04-11 18:10:49.704] [info]  (main)         Download sources check completed successfully
+[2026-04-11 18:10:50.150] [info]  (main)         Checking for update
+[2026-04-11 18:10:50.411] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 18:10:50.717] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 18:10:52.408] [info]  (main)         Update for version 3.9.5 is not available (latest version: 3.9.5, downgrade is disallowed).
+[2026-04-11 18:10:52.409] [info]  (main)         Check for updates result: [object Object]
+[2026-04-11 18:13:11.063] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 18:13:38.124] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 18:13:49.551] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 18:13:59.569] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 18:26:53.228] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 18:30:48.290] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 18:35:40.219] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 21:28:42.682] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 21:28:50.761] [info]  (main)         Released the lock
+[2026-04-11 22:24:02.647] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-11 22:24:02.661] [info]  (main)         Acquired the lock
+[2026-04-11 22:24:02.775] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 22:24:02.799] [info]  (main)         Found 3 total games, 3 non-custom games
+[2026-04-11 22:24:13.208] [info]  (main)         Released the lock
+[2026-04-11 22:24:13.210] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-11 22:24:13.218] [info]  (main)         Using since: 2026-04-11T15:10:49.702Z (from last app start)
+[2026-04-11 22:24:13.219] [info]  (main)         Checking download sources changes for 3 non-custom games since 2026-04-11T15:10:49.702Z
+[2026-04-11 22:24:13.219] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 3,
+  since: '2026-04-11T15:10:49.702Z'
+}
+[2026-04-11 22:26:16.189] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-11 22:26:16.208] [info]  (main)         Acquired the lock
+[2026-04-11 22:26:16.399] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 22:26:16.447] [info]  (main)         Found 3 total games, 3 non-custom games
+[2026-04-11 22:26:16.831] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-11 22:26:16.844] [info]  (main)         Using since: 2026-04-11T15:10:49.702Z (from last app start)
+[2026-04-11 22:26:16.846] [info]  (main)         Checking download sources changes for 3 non-custom games since 2026-04-11T15:10:49.702Z
+[2026-04-11 22:26:16.847] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 3,
+  since: '2026-04-11T15:10:49.702Z'
+}
+[2026-04-11 22:26:17.207] [info]  (main)         Reconnecting in 1s...
+[2026-04-11 22:26:18.186] [info]  (main)         API call completed, response: []
+[2026-04-11 22:26:18.196] [info]  (main)         Saved 'since' value: 2026-04-11T15:10:49.702Z (for modal comparison)
+[2026-04-11 22:26:18.198] [info]  (main)         Updated baseline to: 2026-04-11T19:26:18.197Z (will be 'since' on next app start)
+[2026-04-11 22:26:18.199] [info]  (main)         Found new download options for 0 games
+[2026-04-11 22:26:18.200] [info]  (main)         Download sources check completed successfully
+[2026-04-11 22:26:19.124] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 22:26:21.457] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 22:26:42.542] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:26:48.460] [info]  (main)         [Downloads] Start requested for steam:1245620 (downloader=2, queued=true)
+[2026-04-11 22:26:49.176] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:26:58.527] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:27:01.240] [info]  (main)         [Downloads] Start requested for steam:3164500 (downloader=2, queued=true)
+[2026-04-11 22:27:01.979] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:27:05.571] [info]  (main)         [Downloads] Start requested for steam:3164500 (downloader=8, queued=true)
+[2026-04-11 22:27:05.986] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:27:05.987] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/s2bgt687zgi0
+[2026-04-11 22:27:05.988] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/s2bgt687zgi0
+[2026-04-11 22:27:06.572] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/s2bgt687zgi0/download
+[2026-04-11 22:27:06.989] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/s2bgt687zgi0?v=VmmoYycCXnRIg_BmTc0XMOiHGoc22hOM6EJV1TeS8pm7-sGYd2tFZa_fl0kra3Qjb4mEw6bHF73gW55uUvdkhFo4sjjnzcPwEdaxi2qI0yZtH2tJXfTyQCqysCtLa3XkVpIMTczkuYTlndp9cVIjpORnzHyCTL-Wm-faB4wlPm0UhH7452ed220
+[2026-04-11 22:27:06.990] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:27:06.991] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/s2bgt687zgi0
+[2026-04-11 22:27:07.480] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=2283347591
+[2026-04-11 22:27:07.481] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Schedule-I-SteamRIP.com.rar"
+[2026-04-11 22:27:07.482] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Schedule-I-SteamRIP.com.rar
+[2026-04-11 22:27:14.604] [info]  (main)         [Downloads] Resume requested for steam:3164500 (status=active, queued=true)
+[2026-04-11 22:27:14.605] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:27:14.606] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:27:14.611] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:27:14.614] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:27:14.614] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/s2bgt687zgi0
+[2026-04-11 22:27:14.615] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/s2bgt687zgi0
+[2026-04-11 22:27:14.875] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/s2bgt687zgi0/download
+[2026-04-11 22:27:15.132] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/s2bgt687zgi0?v=CuZiSAImx-4KVbFuzzDsrLA49VQBraiDAs6AOJ4cMcT8R6eXq7zUVdKMWvx49-qXMus9eqKjtbLH6rQGP_meqKcy7Fu2eyBBGf_dUTDtr41dGFcUtWM95yI-7UlynW4A3iwsu2hAwvPT_NwS-DEqi1d7JdmiEmr7WLxt-5QfGTt9nQbOwsUhCjo
+[2026-04-11 22:27:15.133] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:27:15.134] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/s2bgt687zgi0
+[2026-04-11 22:27:15.262] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=2283347591
+[2026-04-11 22:27:15.263] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Schedule-I-SteamRIP.com.rar"
+[2026-04-11 22:27:15.263] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Schedule-I-SteamRIP.com.rar
+[2026-04-11 22:27:26.091] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:27:33.038] [info]  (main)         [Downloads] Resume requested for steam:3164500 (status=active, queued=true)
+[2026-04-11 22:27:33.038] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:27:33.039] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:27:33.042] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:27:33.042] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/s2bgt687zgi0
+[2026-04-11 22:27:33.043] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/s2bgt687zgi0
+[2026-04-11 22:27:33.048] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:27:33.475] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/s2bgt687zgi0/download
+[2026-04-11 22:27:33.693] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/s2bgt687zgi0?v=0SlV4UcW7nRfc9OrsarF1rjq-tjvz0TVdvxVrVAXcosO8DMejcGZj9Hsb28WWEQoP6XF-cuqWOG7yKKLR96gS3zgwTD1xY0mM6Kenih9A1Pg_-H-UJN5c4k37OL0O20CMxexHDe3sJUhshux6FVBUyz49YfJBSITnnWdv28ZipKVsw9o4xVt5Ps
+[2026-04-11 22:27:33.693] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:27:33.694] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/s2bgt687zgi0
+[2026-04-11 22:27:33.842] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=2283347591
+[2026-04-11 22:27:33.843] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Schedule-I-SteamRIP.com.rar"
+[2026-04-11 22:27:33.844] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Schedule-I-SteamRIP.com.rar
+[2026-04-11 22:27:35.421] [info]  (main)         [DownloadManager] Cancelling JS download
+[2026-04-11 22:27:35.422] [info]  (main)         [JsHttpDownloader] Cancelling download
+[2026-04-11 22:27:35.424] [info]  (main)         [JsHttpDownloader] Deleted partial file
+[2026-04-11 22:27:35.426] [info]  (main)         [Downloads] Cancel requested for steam:3164500 (status=active, queued=true)
+[2026-04-11 22:27:35.431] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:29:13.964] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-11 22:29:13.965] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-11 22:34:00.260] [info]  (main)         Acquired the lock
+[2026-04-11 22:40:21.028] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:40:27.311] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:40:41.818] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:41:36.050] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:41:43.409] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=10, queued=true)
+[2026-04-11 22:41:43.556] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:41:43.556] [info]  (main)         [DownloadManager] Processing VikingFile download for URI: https://vikingfile.com/f/FIakiXizQH
+[2026-04-11 22:41:46.822] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=2, queued=true)
+[2026-04-11 22:41:46.966] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:42:42.977] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:42:48.912] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-11 22:42:49.071] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:42:49.072] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:42:49.072] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:42:49.405] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:42:49.627] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=WEfCTudWGBqMX2FDfc_y1gXULQsXpVHEV4kb1j5sspRs2zu-6wHIxv01_Yr0maji2JSN5ReoJGTwndtQmc6S-ULcIDfPHS79uDZWX1OwssUHeNqNbyR831QSYdU8Z_y7EFGdleU2MOLEnQDjGNn_kjU-HDpbduk2rk-hg7A997HLD0x730GEmiLC_p-gyqY
+[2026-04-11 22:42:49.627] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:42:49.628] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:42:50.029] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:42:50.030] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:42:50.031] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:42:57.031] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:43:07.103] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-11 22:43:07.104] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:43:07.105] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:43:07.109] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:43:07.112] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:43:07.113] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:07.113] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:07.571] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-11 22:43:07.572] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:43:07.572] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:43:07.574] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:43:07.574] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:07.575] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:07.621] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:43:07.751] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-11 22:43:07.751] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:43:07.752] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:43:07.754] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:43:07.755] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:07.755] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:07.804] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:43:07.839] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=bFDQ8hqIW3URfxp32lmfMigI0WPt1aET2aULl8u78Ll6Iznsy6XindB0NCeztZO2DIRk3J0oaTyHE7IMMVrhlFrk7BKZvXjiFtnoCROZ6o4YHiev7lQDU02AQwtbMV4Z_PB2czxl2myIa0dYRbDk2bhawqnnb9na_AB4TksbVkffdyl7Rf-FyLf_GJI7sQk
+[2026-04-11 22:43:07.839] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:43:07.840] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:43:07.907] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-11 22:43:07.907] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:43:07.908] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:43:07.909] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:43:07.911] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:43:07.912] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:07.912] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:08.005] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:43:08.008] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=s0GyGx4Q3U9ah7p9f1gJfN5tUmfh0hBHPWnszox2-xNxyPELN_8VMnSVrCiJQ0TvaYwM781lIYNiH8xcgZfHU0VxqrXUjWloYCBrNdirsdIXx4_7uCoeHXCxs7Qny95U52GrLF9Vxmom2iXrlVSkHLlCJQTqoQ88PvmVUcVCnJ5mDraWRbZnkwBIGf04L24
+[2026-04-11 22:43:08.009] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:43:08.009] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:43:08.059] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-11 22:43:08.059] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:43:08.060] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:43:08.061] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:43:08.063] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:43:08.063] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:08.064] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:43:08.156] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:43:08.210] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=fzIwbT2hd732lHoOX80TVXhYCuvmsar8ti6rn-kEACzbCmucH7aR9ZcccRIcF4eaf80O8CVjBBCYEyzFrnsZNNZz84ORyTkdxubIjk7Fva8PThd082sE_zkofOQgIhT9EUgP2PVNjHlX418kDr3Hv4uN6ZEKem6cX9ksfm-cV-eZFSZ2yQQR4TfG-Fb6Lu0
+[2026-04-11 22:43:08.211] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:43:08.212] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:43:08.260] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:43:08.341] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=DTFZ9bZ7h1M27Qbl2RNP5B-pLb9fuL685y9yCpIpywkokzXeQImR4jG-Zy-0P4iY-QVFG-UonVjIHPEwoVGMz--LGEwW_Q8ro_5GCMw7ZLUA8M9QK9E-ZmjwQpRUSk6IJixvf_OiyRyGDy2girrDMnTigGkcKnlcaaPNlgsXRVVpabWYLVBxs7xVbTyTjX8
+[2026-04-11 22:43:08.341] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:43:08.342] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:43:08.352] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:43:08.354] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:43:08.355] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:43:08.450] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=w4FiIYMuRJAuoy8S090eSgFr7QONM0UuRS_3HC_jbCCoZu6gB-cHwSleZbFmo44j6wpc-tqfdkIB2bb6rQBrP4HxcQIeZF3fB1rXE_ZI-ync4LfvtMk_z1JlfDq_8uto6hdnQt7B0Do1umCQlwM4fGmtTDzSBKvvZyxtq-2bXaCOj15W3QhF-dN8SE9YjHs
+[2026-04-11 22:43:08.451] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:43:08.452] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:43:08.611] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:43:08.612] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:43:08.613] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:43:08.778] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:43:08.778] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:43:08.779] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:44:06.668] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:44:16.899] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-11 22:44:16.900] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:44:16.901] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:44:16.905] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:44:16.909] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:44:16.910] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:44:16.910] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:44:17.147] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-11 22:44:17.148] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:44:17.148] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:44:17.150] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:44:17.151] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:44:17.151] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:44:17.273] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:44:17.591] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:44:18.032] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:44:18.032] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:44:18.129] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=E2GDxSOhdjblpyYeHhzHZHLjEnDsrToCpZMLU5n9uhEyr_n94XlkYPJayocbFlGY3wJ9jabFqH8l5fdljRjhJ219evTC3_8NpNEUKKEN8-U8GP3P6anUhUMMTmsDGI4nR_riJppqw0mVHnaPl96DoFtvE6xZS3IZYq2OiDXb4PQXY6yLpXClsZQIq08KmtI
+[2026-04-11 22:44:18.130] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:44:18.131] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:44:18.352] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:44:18.353] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:44:18.354] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:44:18.405] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=VZ9mHuWhtmq2K0cTleM-824Sq-Cw-l5HL7nw23LoVfYoPVHWF1WCoTpAdRY5v_-wRnn1CRTyg78CwLROiTvvIK0qeSZkSC9wlsr0e7_p95zsjK5mzYKlLt6sQiWu9rZ70F2rOJlXH2PYuvXxxmhlBDw-dqDjB9nFOqU8ZUxRQra18MMs5vSy2aN8Mb1EgLI
+[2026-04-11 22:44:18.405] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:44:18.406] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:44:19.061] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:44:19.062] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:44:19.063] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:44:19.347] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-11 22:44:19.348] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:44:19.349] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:44:19.353] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:44:19.354] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:44:19.354] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:44:19.612] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:44:20.710] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:44:22.390] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=FHVNJ9397Pp10LGmGcc1cmViXXSTr3WqSSMOPSeqaoqLXB1Sys1-k_I8rIf8ozuAl2zwJS7QxYUjB643qkBLhr1XYPEeIQbKlklFRlvtRahlXY_JFEAlFA1dRbfs8ssdSmEneEaUmpZgYe_z7MVGFXYpkBEcJHjfgigR_NNSN09v5n-xyL-P_9IIeihOpDQ
+[2026-04-11 22:44:22.390] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:44:22.391] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:44:24.090] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:44:24.091] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:44:24.092] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:45:17.284] [info]  (main)         Acquired the lock
+[2026-04-11 22:45:58.223] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:45:58.981] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:45:59.956] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:46:00.755] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:46:01.352] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:46:01.748] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:46:09.329] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-11 22:46:09.330] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:46:09.330] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:46:09.336] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:46:09.343] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:46:09.343] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:46:09.344] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:46:09.877] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:46:10.439] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=LmvvWUw8lOdDCOU3xrIyru6g76Gf8ABux-fTEEGy3bTGy2qsaT-fzmM0RNvmK_gC3fwFYsVF9qpEjLENn6Wh6Fxz93c6aG_gKDmzzHW2FTZxrA8Kpz7IZGV-ZxEO8VlYGHT4WZdyNEC_VX7KtoTuqx-yBIfzCD4i-0GvzItI-UYU08yDsJPvh3EivwL-fJA
+[2026-04-11 22:46:10.440] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:46:10.441] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:46:10.710] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:46:10.712] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:46:10.713] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:46:16.997] [info]  (main)         Released the lock
+[2026-04-11 22:46:27.123] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-11 22:46:27.157] [info]  (main)         Acquired the lock
+[2026-04-11 22:46:27.258] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 22:46:27.289] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-11 22:46:27.296] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-11 22:46:36.955] [info]  (main)         Using since: 2026-04-11T19:26:18.197Z (from last app start)
+[2026-04-11 22:46:36.956] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-11T19:26:18.197Z
+[2026-04-11 22:46:36.956] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-11T19:26:18.197Z'
+}
+[2026-04-11 22:46:36.964] [info]  (main)         Released the lock
+[2026-04-11 22:47:12.323] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-11 22:47:12.327] [info]  (main)         Acquired the lock
+[2026-04-11 22:47:12.478] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 22:47:12.524] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-11 22:47:12.784] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-11 22:47:12.800] [info]  (main)         Using since: 2026-04-11T19:26:18.197Z (from last app start)
+[2026-04-11 22:47:12.801] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-11T19:26:18.197Z
+[2026-04-11 22:47:12.802] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-11T19:26:18.197Z'
+}
+[2026-04-11 22:47:12.920] [info]  (main)         Reconnecting in 1s...
+[2026-04-11 22:47:13.002] [info]  (main)         API call completed, response: []
+[2026-04-11 22:47:13.004] [info]  (main)         Saved 'since' value: 2026-04-11T19:26:18.197Z (for modal comparison)
+[2026-04-11 22:47:13.005] [info]  (main)         Updated baseline to: 2026-04-11T19:47:13.004Z (will be 'since' on next app start)
+[2026-04-11 22:47:13.006] [info]  (main)         Found new download options for 0 games
+[2026-04-11 22:47:13.007] [info]  (main)         Download sources check completed successfully
+[2026-04-11 22:47:27.396] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 22:47:27.708] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 22:47:43.230] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:47:43.232] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:48:03.103] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-11 22:48:03.391] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:48:03.395] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:48:03.400] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:48:03.674] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:48:03.892] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=wvGpd0sgDLOSN86Akrf_ByiEwhQEUJtV4NWyLMgnlWqJEujKBgTpFKJOFrvH6k75kfeltgJovSasc1nbg0y8TbSmDIuYrij3zbzTUqopIQ1hVkZZdjZ7OdYY5CheNINR8iaoW2xZ_DGG--pitVj1I2GAOpA4HVqWG79qrjgOVh-MkQ-zDsHT4iE_vBx77_0
+[2026-04-11 22:48:03.893] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:48:03.899] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:48:04.179] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:48:04.183] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:48:04.186] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:48:32.554] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-11 22:48:32.555] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:48:32.559] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:48:32.565] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-11 22:48:32.569] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:48:32.570] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:48:32.571] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-11 22:48:32.999] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-11 22:48:33.201] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=_luYFn9itPHzoLqTgFjaf0TziQfL_mKgox1tHXMP1Geq8f21asznE-afnkzP6LjuJxuzwtlwkgN1QJ0T3N1Q3MCaSHlIz4lylpBMOHF0RKb7OgJsJbxwLovu7U3bnxPNBFB0CaVJNEak8kzpeY7OmyzpKBNZLFeci3x1KHbD_NfLVLeQJ88SHbCe1CjJlns
+[2026-04-11 22:48:33.202] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-11 22:48:33.204] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-11 22:48:33.346] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-11 22:48:33.347] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-11 22:48:33.349] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-11 22:50:29.998] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 22:50:30.192] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 22:50:35.612] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-11 22:51:02.286] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 22:51:02.298] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 22:53:02.622] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:53:02.624] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 22:53:13.387] [info]  (main)         [Downloads] Start requested for steam:1245620 (downloader=2, queued=true)
+[2026-04-11 22:53:13.435] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-11 22:53:13.438] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-11 22:53:14.635] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:53:36.091] [info]  (main)         [Downloads] Start requested for steam:1245620 (downloader=2, queued=true)
+[2026-04-11 22:53:36.512] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:54:02.422] [info]  (main)         [Downloads] Start requested for steam:1245620 (downloader=10, queued=true)
+[2026-04-11 22:54:02.650] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:54:02.654] [info]  (main)         [DownloadManager] Processing VikingFile download for URI: https://vikingfile.com/f/RienVbIK2N
+[2026-04-11 22:54:12.121] [info]  (main)         [Downloads] Start requested for steam:1245620 (downloader=8, queued=true)
+[2026-04-11 22:54:12.314] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 22:54:12.315] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/dfsyxt2bokq3
+[2026-04-11 22:54:12.322] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/dfsyxt2bokq3
+[2026-04-11 22:54:13.864] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/dfsyxt2bokq3/download
+[2026-04-11 22:57:26.893] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 22:57:26.904] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 23:07:07.715] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:07:07.716] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:07:08.897] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:07:08.900] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:07:13.009] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:07:13.029] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:08:21.325] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 23:08:21.600] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 23:08:50.984] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:08:50.986] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:08:55.191] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=2, queued=true)
+[2026-04-11 23:08:55.383] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-11 23:09:40.754] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:09:40.765] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-11 23:09:41.501] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 23:09:41.554] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 23:10:04.672] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-11 23:10:04.693] [info]  (main)         Acquired the lock
+[2026-04-11 23:10:04.768] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 23:10:04.792] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-11 23:10:18.333] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-11 23:10:18.335] [info]  (main)         Released the lock
+[2026-04-11 23:10:18.342] [info]  (main)         Using since: 2026-04-11T19:47:13.004Z (from last app start)
+[2026-04-11 23:10:18.343] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-11T19:47:13.004Z
+[2026-04-11 23:10:18.343] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-11T19:47:13.004Z'
+}
+[2026-04-11 23:25:08.797] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-11 23:25:08.810] [info]  (main)         Acquired the lock
+[2026-04-11 23:25:08.907] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-11 23:25:08.932] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-11 23:25:08.946] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-11 23:25:08.947] [info]  (main)         Using since: 2026-04-11T19:47:13.004Z (from last app start)
+[2026-04-11 23:25:08.948] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-11T19:47:13.004Z
+[2026-04-11 23:25:08.948] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-11T19:47:13.004Z'
+}
+[2026-04-11 23:25:09.297] [info]  (main)         Reconnecting in 1s...
+[2026-04-11 23:25:09.301] [info]  (main)         API call completed, response: []
+[2026-04-11 23:25:09.302] [info]  (main)         Saved 'since' value: 2026-04-11T19:47:13.004Z (for modal comparison)
+[2026-04-11 23:25:09.303] [info]  (main)         Updated baseline to: 2026-04-11T20:25:09.303Z (will be 'since' on next app start)
+[2026-04-11 23:25:09.304] [info]  (main)         Found new download options for 0 games
+[2026-04-11 23:25:09.304] [info]  (main)         Download sources check completed successfully
+[2026-04-11 23:25:09.762] [info]  (main)         Checking for update
+[2026-04-11 23:25:10.855] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-11 23:25:11.885] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-11 23:29:10.266] [info]  (main)         Released the lock
+[2026-04-12 00:12:16.170] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 00:12:16.177] [info]  (main)         Acquired the lock
+[2026-04-12 00:12:16.257] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 00:12:16.294] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 00:12:16.308] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 00:12:16.309] [info]  (main)         Using since: 2026-04-11T20:25:09.303Z (from last app start)
+[2026-04-12 00:12:16.310] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-11T20:25:09.303Z
+[2026-04-12 00:12:16.311] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-11T20:25:09.303Z'
+}
+[2026-04-12 00:12:16.484] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 00:12:16.515] [info]  (main)         API call completed, response: []
+[2026-04-12 00:12:16.518] [info]  (main)         Saved 'since' value: 2026-04-11T20:25:09.303Z (for modal comparison)
+[2026-04-12 00:12:16.523] [info]  (main)         Updated baseline to: 2026-04-11T21:12:16.518Z (will be 'since' on next app start)
+[2026-04-12 00:12:16.524] [info]  (main)         Found new download options for 0 games
+[2026-04-12 00:12:16.524] [info]  (main)         Download sources check completed successfully
+[2026-04-12 00:12:17.387] [info]  (main)         Checking for update
+[2026-04-12 00:12:17.733] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 00:12:20.324] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 00:14:06.507] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 00:14:08.984] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 00:14:13.195] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 00:14:21.676] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 00:14:22.507] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 00:14:26.227] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-12 00:14:26.518] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 00:14:26.519] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:26.519] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:26.796] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 00:14:27.061] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=QfSTQg3BUroua7LiXbDzgQZmwnrTCx9tfYEzOFglPZPGCLwpCgEcgKv0_Jey46gPq0NDVmW2bUceSWaorYItDn4zAjIXi3nEUJzK2xaWnEw3KfBiy5AVZzLnjGvfbzupYm4g1XytgEYEDwKNh9wg2J0EFibUYS0g6sVPnX4X8rDQBsIVIlZhkGu8QV7RV74
+[2026-04-12 00:14:27.062] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 00:14:27.063] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 00:14:27.415] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 00:14:27.416] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 00:14:27.416] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 00:14:34.002] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 00:14:34.003] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 00:14:34.003] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 00:14:34.011] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 00:14:34.013] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 00:14:34.014] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:34.014] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:34.274] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 00:14:34.482] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 00:14:34.483] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 00:14:34.483] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 00:14:34.484] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 00:14:34.485] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:34.485] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:34.497] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=UvGFh3w6VlUSuchXBntOlfNiWeu6s9l-Zgadmshdk0IiRCwH4HAOZhjLYLNrJJSOre1Gdst5DiWBv7kL0_UTMNyfY9J4_GKB3KQGUUXz8EqU0zBAknidtXLmTHRKtGcWs90_HMvsza59l103LxiOhpVugRh5jP8FdjE0d71hnZCOwBF5o4xw7CCJQ6V9n44
+[2026-04-12 00:14:34.497] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 00:14:34.498] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 00:14:34.634] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 00:14:34.635] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 00:14:34.635] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 00:14:34.674] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 00:14:34.674] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 00:14:34.675] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 00:14:34.678] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 00:14:34.681] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 00:14:34.681] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:34.682] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:34.720] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 00:14:34.846] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 00:14:34.847] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 00:14:34.847] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 00:14:34.849] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 00:14:34.849] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:34.850] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:34.905] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 00:14:34.951] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=QyJZ91AabE6-LJl55uHwaOCPeBPas6fZQK0iBrXodrWz4XFgdGHKYOAJXo4pJCgr_MGDCHCBCyjLFGNQQdRZ-w4Rhg37Ju5f5vqX3z29DRs_HxhygziIpoQ98A15f8dUsp8rM5AvXZMbm-6SymIXyx3cZMZrRA43sIAeq6kVjcuhIC1Jim3c-eAUfbJDBJA
+[2026-04-12 00:14:34.951] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 00:14:34.952] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 00:14:35.014] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 00:14:35.015] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 00:14:35.015] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 00:14:35.017] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 00:14:35.019] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 00:14:35.019] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:35.019] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 00:14:35.066] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 00:14:35.139] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=K4eAYBujhN1UqcMneXYL5cghXgcMNgatt5ufJgrf2KsSs9JIIGMtxgPo7dsAYlxF8qkREd7wI2sFb24taFkJMvnGwaRFmNWkO3NhTw4scBbyb9LnvUUghWNc1ww6r_ihicJSC6KAqw9wmlI7Nm2MhugvlTs4kdqoGbyKxtq38P7sdvSpW7tRYYk-vt2X580
+[2026-04-12 00:14:35.140] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 00:14:35.140] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 00:14:35.251] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 00:14:35.297] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 00:14:35.298] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 00:14:35.299] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 00:14:35.315] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=LaNIUlL6SFRRd6dcTNvXg7HIvwCYbXcSrA7tNaHdFtBK36KbDEkRF62oz413yAJw7_AJ8dB1i6vXYejPsgPj5CQ1hH0ksAbmaI6v9LvWQEUS8t0v6BwodylMJHFFVu9ZaKOhYGj3z2PbzY2T6S4XCRIJukBHpSYtMKpolLs-n3tlepyVvxTF52FpTJjYWGY
+[2026-04-12 00:14:35.315] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 00:14:35.316] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 00:14:35.540] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=Qb6VBnaQBk_pVqexSjz9P43j5arhaB-RfHiwEFMmBEQIeKIVgc-9E6LMey0aa0__uI0KNNK7GDT5ph5aJGXqA-HVuUsFg7Ov4Fcj5ACsDoFhs5686EaFuebzdB7zkunzdJmpI1SeBBGEPxq7saD2b69JVyCK591Sunk34S_0UmF-sZNyj2BQ5drMf_3di6E
+[2026-04-12 00:14:35.541] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 00:14:35.541] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 00:14:35.628] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 00:14:35.629] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 00:14:35.630] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 00:14:36.299] [info]  (main)         [JsHttpDownloader] Retryable error (fetch failed). Retry 1/10 in 1000ms
+[2026-04-12 00:14:38.058] [info]  (main)         [JsHttpDownloader] Retryable error (fetch failed). Retry 2/10 in 2000ms
+[2026-04-12 00:14:40.406] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 00:14:40.407] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 00:14:40.408] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 00:19:11.818] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 00:19:20.279] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 00:19:52.670] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 11:38:07.985] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 11:38:07.992] [info]  (main)         Acquired the lock
+[2026-04-12 11:38:08.094] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 11:38:08.130] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 11:38:08.139] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 11:38:08.158] [info]  (main)         Using since: 2026-04-11T21:12:16.518Z (from last app start)
+[2026-04-12 11:38:08.158] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-11T21:12:16.518Z
+[2026-04-12 11:38:08.159] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-11T21:12:16.518Z'
+}
+[2026-04-12 11:38:08.586] [info]  (main)         API call completed, response: []
+[2026-04-12 11:38:08.592] [info]  (main)         Saved 'since' value: 2026-04-11T21:12:16.518Z (for modal comparison)
+[2026-04-12 11:38:08.593] [info]  (main)         Updated baseline to: 2026-04-12T08:38:08.593Z (will be 'since' on next app start)
+[2026-04-12 11:38:08.594] [info]  (main)         Found new download options for 0 games
+[2026-04-12 11:38:08.594] [info]  (main)         Download sources check completed successfully
+[2026-04-12 11:38:08.631] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 11:38:09.138] [info]  (main)         Checking for update
+[2026-04-12 11:38:09.669] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 11:38:10.734] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 11:39:11.514] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 11:39:14.902] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 11:39:15.241] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 11:39:23.460] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 11:39:23.462] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 11:39:23.462] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 11:39:23.463] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 11:39:23.814] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 11:39:24.019] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=KQmT9ro2wmfj6uF8TWMGB_LVkgWT7_CYweN8-7DLqHs6Ne2CFQuWMVXEoRf2UZavrJ3DUIdFAMFW-eH412ijxtiX1_MLDwvCwnvtmNmlIJu4yX-irqFVAbCxVjAHo0ukAEEkZmOdKF9ChIWDDuMb40CTjHqp1fNJ4ejppf7xk0Tw5NSu1y8zZPGoa1ecnPU
+[2026-04-12 11:39:24.019] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 11:39:24.020] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 11:39:24.414] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 11:39:24.415] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 11:39:24.416] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 11:39:26.031] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 11:39:26.031] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 11:39:26.032] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 11:39:26.037] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 11:39:26.040] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 11:39:26.040] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 11:39:26.041] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 11:39:26.263] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 11:39:26.452] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=TJKe6xo5_ZSs6b6of9Ei_SGqvCcehrrSS4D5F3-KQO79nuGiSdvD9F6mm9gfUc95-h0Mu6YIj-kNMp0SWIzdhsj7xSizGqeCx0y9IUFV94d6UsZaCPrYTMoe0Mt1SZXOA6CfdwKMqI4lVEHRYVv4imySkarn-KNCRgn9xJBxoSOnsyWp44DGx47RDgZ8QYU
+[2026-04-12 11:39:26.452] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 11:39:26.453] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 11:39:26.657] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 11:39:26.658] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 11:39:26.659] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 11:39:27.007] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 11:39:27.008] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 11:39:27.010] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 11:39:28.640] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=false)
+[2026-04-12 11:39:28.640] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 11:39:28.640] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 11:39:28.641] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 11:39:28.642] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 11:39:28.642] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 11:39:28.855] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 11:39:29.061] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=d4svBWmWSntYY531c4HPhTK5JwYUIAz-1iB7O_IBTqide4l1paTk-58ZN-xwjpNfx8x7W2sNHMEn2XYpPu218SVC8jJOq4OgvKiOKvFLGs9S2ygidlw3CgDDR27i6mjQJ-Qc3ZrevxqcjYn6WuGdyI26m5jgFQkY-cwNdDq_0NLQhljKrqL42BK0faNfkQY
+[2026-04-12 11:39:29.062] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 11:39:29.062] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 11:39:29.233] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 11:39:29.234] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 11:39:29.235] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 11:40:58.860] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 11:42:26.423] [info]  (main)         Released the lock
+[2026-04-12 11:43:23.612] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 11:43:23.622] [info]  (main)         Acquired the lock
+[2026-04-12 11:43:23.700] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 11:43:23.722] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 11:43:23.723] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 11:43:23.732] [info]  (main)         Using since: 2026-04-12T08:38:08.593Z (from last app start)
+[2026-04-12 11:43:23.733] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T08:38:08.593Z
+[2026-04-12 11:43:23.733] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T08:38:08.593Z'
+}
+[2026-04-12 11:43:23.959] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 11:43:23.962] [info]  (main)         API call completed, response: []
+[2026-04-12 11:43:23.965] [info]  (main)         Saved 'since' value: 2026-04-12T08:38:08.593Z (for modal comparison)
+[2026-04-12 11:43:23.967] [info]  (main)         Updated baseline to: 2026-04-12T08:43:23.965Z (will be 'since' on next app start)
+[2026-04-12 11:43:23.968] [info]  (main)         Found new download options for 0 games
+[2026-04-12 11:43:23.968] [info]  (main)         Download sources check completed successfully
+[2026-04-12 11:43:24.361] [info]  (main)         Checking for update
+[2026-04-12 11:43:24.727] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 11:43:26.148] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 11:43:32.174] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 11:43:38.298] [info]  (main)         [Downloads] Start requested for steam:1245620 (downloader=10, queued=true)
+[2026-04-12 11:43:38.501] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 11:43:38.502] [info]  (main)         [DownloadManager] Processing VikingFile download for URI: https://vikingfile.com/f/RienVbIK2N
+[2026-04-12 11:43:41.247] [info]  (main)         [Downloads] Start requested for steam:1245620 (downloader=8, queued=true)
+[2026-04-12 11:43:41.428] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 11:43:41.429] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/dfsyxt2bokq3
+[2026-04-12 11:43:41.430] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/dfsyxt2bokq3
+[2026-04-12 11:43:42.100] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/dfsyxt2bokq3/download
+[2026-04-12 11:43:45.776] [info]  (main)         [Downloads] Start requested for steam:1245620 (downloader=2, queued=true)
+[2026-04-12 11:43:45.946] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 11:54:18.025] [info]  (main)         Released the lock
+[2026-04-12 12:25:37.708] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 12:25:37.726] [info]  (main)         Acquired the lock
+[2026-04-12 12:25:37.833] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 12:25:37.877] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 12:25:38.118] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 12:25:38.125] [info]  (main)         Using since: 2026-04-12T08:43:23.965Z (from last app start)
+[2026-04-12 12:25:38.126] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T08:43:23.965Z
+[2026-04-12 12:25:38.127] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T08:43:23.965Z'
+}
+[2026-04-12 12:25:38.502] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 12:25:38.584] [info]  (main)         API call completed, response: []
+[2026-04-12 12:25:38.591] [info]  (main)         Saved 'since' value: 2026-04-12T08:43:23.965Z (for modal comparison)
+[2026-04-12 12:25:38.592] [info]  (main)         Updated baseline to: 2026-04-12T09:25:38.591Z (will be 'since' on next app start)
+[2026-04-12 12:25:38.593] [info]  (main)         Found new download options for 0 games
+[2026-04-12 12:25:38.594] [info]  (main)         Download sources check completed successfully
+[2026-04-12 12:25:49.457] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 12:25:49.995] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 12:25:53.250] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 12:25:53.251] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 12:26:45.551] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-12 12:26:45.552] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-12 12:26:45.553] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-12 12:26:45.553] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-12 12:26:50.552] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-12 12:26:50.553] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-12 12:26:55.552] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-12 12:26:55.553] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-12 12:27:00.552] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-12 12:27:00.553] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-12 12:27:05.552] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-12 12:27:05.553] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-12 12:27:10.552] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-12 12:27:10.553] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-12 12:27:15.552] [info]  (main)         Missing redistributable installer files: [
+  'dotNetFx40_Full_setup.exe',
+  'directx_Jun2010_redist.exe',
+  'oalinst.exe',
+  'install.bat',
+  'xnafx40_redist.msi',
+  'VisualCppRedist_AIO_x86_x64.exe'
+]
+[2026-04-12 12:27:15.553] [info]  (main)         CommonRedist path: C:\Users\mouta\AppData\Roaming\mo3tazlauncher\CommonRedist
+[2026-04-12 12:33:37.229] [info]  (main)         Released the lock
+[2026-04-12 13:20:50.411] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 13:20:50.429] [info]  (main)         Acquired the lock
+[2026-04-12 13:20:50.507] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 13:20:50.536] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 13:20:50.553] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 13:20:50.554] [info]  (main)         Using since: 2026-04-12T09:25:38.591Z (from last app start)
+[2026-04-12 13:20:50.555] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T09:25:38.591Z
+[2026-04-12 13:20:50.556] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T09:25:38.591Z'
+}
+[2026-04-12 13:20:51.008] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 13:20:51.056] [info]  (main)         API call completed, response: []
+[2026-04-12 13:20:51.059] [info]  (main)         Saved 'since' value: 2026-04-12T09:25:38.591Z (for modal comparison)
+[2026-04-12 13:20:51.060] [info]  (main)         Updated baseline to: 2026-04-12T10:20:51.060Z (will be 'since' on next app start)
+[2026-04-12 13:20:51.060] [info]  (main)         Found new download options for 0 games
+[2026-04-12 13:20:51.061] [info]  (main)         Download sources check completed successfully
+[2026-04-12 13:20:51.204] [info]  (main)         Checking for update
+[2026-04-12 13:20:51.722] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 13:20:53.032] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 13:20:59.095] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 13:21:06.000] [info]  (main)         [Downloads] Cancel requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 13:21:33.676] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 13:21:35.213] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 13:21:40.033] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=2, queued=true)
+[2026-04-12 13:21:40.215] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:21:42.833] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=10, queued=true)
+[2026-04-12 13:21:43.015] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:21:43.015] [info]  (main)         [DownloadManager] Processing VikingFile download for URI: https://vikingfile.com/f/FIakiXizQH
+[2026-04-12 13:21:46.734] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=10, queued=true)
+[2026-04-12 13:21:46.906] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:21:46.906] [info]  (main)         [DownloadManager] Processing VikingFile download for URI: https://vikingfile.com/f/QDg3bDxz8g
+[2026-04-12 13:21:51.658] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-12 13:21:51.833] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:21:51.834] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:21:51.834] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:21:52.203] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:21:52.415] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=lcYtdFrl14SyWwIy4-0NXseqV0PLo4zh7Oc010jkIksLs7MKbuBCkzZr5uEc9m6UGMuXb_NkRERkDLV1TNtBmFn3BtU4hXsUfMKJ4crXW6OQykOphvctoQuaBXAqb5KD54dhk1ijqk859WViqqFEpYJfDv3IebbhDXtNbNxWRVygUaPij9UTz1kyplU1DQU
+[2026-04-12 13:21:52.416] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:21:52.416] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:21:52.862] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:21:52.863] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:21:52.863] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:12.729] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:12.730] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:12.730] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:12.737] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:12.741] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:12.741] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:12.742] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:13.052] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:13.262] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=pQEL7pq1oi_tGwbS2EElrkLPGcGRKvCP2XzEo6CirKRlL5QZ57rqy6iBg5zMQySjzYhIQ93oSv016SPTncgvIoCztWulPGGVhr5sbEpWuM1lB8n2uzwtkCjzL1eG0RXUDr40O7uaQQkPIqD1RpR4djQL64cUOsxyVEyOZndS6m-kKcRPLp3IiP7a0_nUXIY
+[2026-04-12 13:22:13.263] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:13.264] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:13.409] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:13.410] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:13.410] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:23.114] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:23.115] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:23.116] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:23.120] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:23.123] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:23.123] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:23.124] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:23.403] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:23.597] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=KKVqUxOuNoObuW99FtlQ2PGBS8lqF_XZxL9ITXLtMEZjB5NQeN21lrZAIqwFb37Z5U5BMO3icISc3EA091WzhSUS4vT7XeqXNcPB-W2M9dYjp6Vpt6agraTJMTomzJcAJbkyX9nm-53iS8GqAJcoJXJoaxD0_DVPt3iHJx5hjbDORChh2Ep6OIMLU65Uguk
+[2026-04-12 13:22:23.598] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:23.598] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:23.745] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:23.746] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:23.747] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:26.662] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:26.663] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:26.663] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:26.665] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:26.667] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:26.667] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:26.668] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:26.999] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:27.196] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=XGFyBGD54dbr0s_NbDowEzQyzZZlLn7urERnDmiNZ228nPpQld4sW_Fb6FKNiBtTy9JaU4923NG2KIwGb3uGsF4dNWGjnpUX6d2TTyQW8d0Iw_f_ltmmvYvi5T1z3ApJAXsxwNWqMjB24rmkD8s-cVNwT76feAtWFjuklHAGKGAZSgYom0hULCxaiNFg4Fo
+[2026-04-12 13:22:27.196] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:27.197] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:27.417] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:27.417] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:27.418] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:28.487] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:28.488] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:28.489] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:28.490] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:28.492] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:28.492] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:28.493] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:28.769] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:28.973] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=mRimdJ8mHSYNjeXDyLpwNCE306x3cxep0mUYTHZL-bHmOxiQaU2o7vM6D32W1w_Yyzar_v0HhIwhRBqc-VvD8cdgswcAaGNKprp1uKSGuVKUJSv_dth-k6k9nHysrnB64waycBrCUXXNw6UIRaoP5BT3T82DOyuxZum1NJ_dKRD4zzfIr79I0qi3f0NgTgw
+[2026-04-12 13:22:28.974] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:28.975] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:29.114] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:29.115] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:29.116] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:30.983] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:30.984] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:30.984] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:30.986] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:30.987] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:30.987] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:30.988] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:31.190] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:31.399] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=hGgwSok0_3gNtJ5BuD5KDHZknqnT5G2v09CW3maJ1g90n8Xlx_4-_52tpxWuo97S4HqxPwVu0AddBFYv_Kh0LUb15N2IiIQgIL0xFw6n8rZ-_bz_KGSxiVIwljyYrLy7nrRbKEeX2g3eugxL8R-EoHN0XScPARivKCw1X8Elyy336zmI4vJS5ORnz2sYh-Y
+[2026-04-12 13:22:31.400] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:31.400] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:31.530] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:31.531] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:31.532] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:31.771] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:31.772] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:31.772] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:31.775] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:31.778] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:31.778] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:31.779] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:32.005] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:32.265] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=HPQlBLd8D7HR6Q7jZhCDxE-yfL_yWxZo9sd-ly6vg0Z8Ac_A1hsG3VL3KFyzUHkXELmQcKIMer9DIuq9oJhinV0IkECieBd7XXFRqpo9t0WkbKnO3AiMjGOTFIsGi_VVfpbFdVxsVS6kY5reTAjZjeSBLlelY_fSujcoDV_m31jdtxpmk4i32glrvXmvDTU
+[2026-04-12 13:22:32.266] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:32.266] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:32.299] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:32.300] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:32.300] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:32.301] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:32.303] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:32.304] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:32.304] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:32.489] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:32.647] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 13:22:32.648] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:32.648] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:32.649] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:32.650] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:32.650] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:32.720] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=7wNm_zBK7ZGrsRqwb7KMYKrogXWzYtiBrKXUuCukNEGntTFXR6aIH9Pauzz_bPr62RG4I30D-vHUYBgWd0aibzASjBPPDAWw1COz0gOkn2KnLNK5QQYmOcqlVnF-VAMwU7OtkyGM0fCGcz3aKnWH34NZMabNP-zCsuJdDst2lP2LB2ejogfABLzUypYGojU
+[2026-04-12 13:22:32.721] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:32.721] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:32.868] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:32.869] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:32.869] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:32.919] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:33.178] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:33.178] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:33.179] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:33.181] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:33.182] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:33.183] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:33.183] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:33.227] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=uLBW1awa6dnbkvB5RPLlwFAj-IW68H7Xk40-Rc__EKFwwd6ArvFVCT_fBo5Ag9-a4g5N4DsTYOR7b_YjrFFB8sKGJeRhqDjYVLGJXXOriqYX6sHOBaQd4o624BcykTP3DQujv_B2RDwGfxNeoynct0GFHrj1ZOnIhAKXEKPghuney1K3SrvTYe-LqQ5E2p0
+[2026-04-12 13:22:33.228] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:33.229] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:33.405] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:33.426] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:33.427] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:33.427] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:33.447] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 13:22:33.448] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 13:22:33.448] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 13:22:33.450] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 13:22:33.452] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 13:22:33.452] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:33.452] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 13:22:33.634] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=YL08BeVdUAZB8Oz6sC3ORaa3J6mEdSXU2g5X0hJwKqDykUYdkryExFbDZsQCB4_9yaMEjvLS1nZpo73zUm2I_iz06PVviPqtfBJV46Qgf9g0_MZuDonSLTwOMK31UO0ze61bmNqHGa8pGGa7pOvwofp14JSfPCeiH36u2ZQJCPP_Glv8nSZkELAR2MjpJDc
+[2026-04-12 13:22:33.635] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:33.635] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:33.765] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:33.765] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:33.766] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:22:33.777] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 13:22:34.194] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=ZmLIzy7x8nFn3Pdnkabyohg4m04pmCN3ypMakWfPj4laIgcBpXwMehy-ru-i3mVfB11b58wKXPsiFSgfilSDjrGlzeAk1J1Q7d7olRxYKqmP4S_uiBTUk_FHZFXRzxCapn5KgHRhjcsa1F6USGEweJu6pbFpiRtD3961364pGs1R92opPnLT6R4ckf6HMjo
+[2026-04-12 13:22:34.195] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 13:22:34.195] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 13:22:34.369] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 13:22:34.370] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 13:22:34.370] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 13:24:04.193] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 13:25:05.437] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 13:49:37.867] [info]  (main)         Released the lock
+[2026-04-12 13:50:05.989] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 13:50:06.002] [info]  (main)         Acquired the lock
+[2026-04-12 13:50:06.081] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 13:50:06.116] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 13:50:06.133] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 13:50:06.146] [info]  (main)         Using since: 2026-04-12T10:20:51.060Z (from last app start)
+[2026-04-12 13:50:06.147] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T10:20:51.060Z
+[2026-04-12 13:50:06.147] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T10:20:51.060Z'
+}
+[2026-04-12 13:50:06.400] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 13:50:06.466] [info]  (main)         API call completed, response: []
+[2026-04-12 13:50:06.470] [info]  (main)         Saved 'since' value: 2026-04-12T10:20:51.060Z (for modal comparison)
+[2026-04-12 13:50:06.474] [info]  (main)         Updated baseline to: 2026-04-12T10:50:06.471Z (will be 'since' on next app start)
+[2026-04-12 13:50:06.475] [info]  (main)         Found new download options for 0 games
+[2026-04-12 13:50:06.475] [info]  (main)         Download sources check completed successfully
+[2026-04-12 13:50:06.969] [info]  (main)         Checking for update
+[2026-04-12 13:50:07.370] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 13:50:09.407] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 13:50:13.343] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 14:09:03.402] [info]  (main)         Released the lock
+[2026-04-12 14:20:17.900] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 14:20:17.915] [info]  (main)         Acquired the lock
+[2026-04-12 14:20:17.987] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 14:20:18.005] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 14:20:18.017] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 14:20:18.020] [info]  (main)         Using since: 2026-04-12T10:50:06.471Z (from last app start)
+[2026-04-12 14:20:18.021] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T10:50:06.471Z
+[2026-04-12 14:20:18.021] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T10:50:06.471Z'
+}
+[2026-04-12 14:20:18.419] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 14:20:18.523] [info]  (main)         API call completed, response: []
+[2026-04-12 14:20:18.526] [info]  (main)         Saved 'since' value: 2026-04-12T10:50:06.471Z (for modal comparison)
+[2026-04-12 14:20:18.527] [info]  (main)         Updated baseline to: 2026-04-12T11:20:18.526Z (will be 'since' on next app start)
+[2026-04-12 14:20:18.527] [info]  (main)         Found new download options for 0 games
+[2026-04-12 14:20:18.528] [info]  (main)         Download sources check completed successfully
+[2026-04-12 14:20:18.902] [info]  (main)         Checking for update
+[2026-04-12 14:20:20.146] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 14:20:20.672] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 14:20:56.363] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 14:20:56.787] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 14:21:13.505] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 14:21:13.507] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 14:21:13.508] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 14:21:13.509] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 14:21:13.809] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 14:21:14.047] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=P9MmvTT1FE_KtrG9YPn99niVytrQ8IahSXtBz95cfo7C4ms3OY66XcXKhnhklZw2AUKNDlqovmF7O3cxdTkeTqVHv5a_F0Gs2AmdfRwlS6WaIo01XPMkXT2Qb4uUej_u9T54nBUXAoKkP3OToltlej4aDYax_hJb5bQVe7w15txdnlZ21R2V7_PCEZ9GqmU
+[2026-04-12 14:21:14.048] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 14:21:14.049] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 14:21:14.422] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 14:21:14.423] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 14:21:14.423] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 14:21:18.345] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 14:21:18.346] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 14:21:18.346] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 14:21:18.354] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 14:21:18.355] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 14:21:18.356] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 14:21:18.356] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 14:21:18.629] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 14:21:18.824] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=9EdbRF-rA5GaBjWmeuT1f-7YA3OWhK3T25LOHiSZX04VEX4Iihy3xinLvizu9h9hFFZo4RCuqEUrBh008naDcVhHKmowFCHPyd550QWDyW1ZAsHTWX3Oxk0Jp72zSV2A9n28ejsQ-Qh_FEe_s3aPfI7uZQX0h4syrrRavfRgk2-qKViXtrI489iR--sBED8
+[2026-04-12 14:21:18.824] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 14:21:18.825] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 14:21:18.978] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 14:21:18.978] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 14:21:18.979] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 14:21:22.670] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 14:21:22.671] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 14:21:22.672] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 14:21:47.335] [info]  (main)         [Downloads] Cancel requested for steam:322170 (status=paused, queued=false)
+[2026-04-12 14:21:49.037] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 14:21:52.483] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-12 14:21:52.483] [info]  (main)         [DownloadManager] Pausing JS download
+[2026-04-12 14:21:52.484] [info]  (main)         [JsHttpDownloader] Pausing download
+[2026-04-12 14:21:52.760] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 14:21:52.761] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 14:21:52.762] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 14:21:52.996] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 14:21:53.250] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=a3jD1lLVZc2TrfoAUbNDUuP6sTyKI3CD3yFru-BwyCXOeYqtvRPCWvQfMyk6Q4ndfL54lcZ9-up6SnVNdYowfmewPC0opNxwG5G-hKVsUEjSzWsx9dUfcITws2P9rNwlGXNcmracL2xadc4y5Q5mY8FSHJcBDe7-OrQ945ZUBZ3F5Fgi_r4DMCCwvH9WjN4
+[2026-04-12 14:21:53.250] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 14:21:53.251] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 14:21:53.475] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 14:21:53.476] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 14:21:53.477] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 14:22:00.545] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 14:23:40.423] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 14:27:11.325] [info]  (main)         Checking for update
+[2026-04-12 14:27:11.648] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 14:27:12.248] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 14:27:12.797] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 14:29:53.102] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 14:37:44.651] [info]  (main)         Released the lock
+[2026-04-12 14:44:17.429] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 14:44:17.450] [info]  (main)         Acquired the lock
+[2026-04-12 14:44:17.527] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 14:44:17.548] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 14:44:17.552] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 14:44:17.562] [info]  (main)         Using since: 2026-04-12T11:20:18.526Z (from last app start)
+[2026-04-12 14:44:17.563] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T11:20:18.526Z
+[2026-04-12 14:44:17.564] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T11:20:18.526Z'
+}
+[2026-04-12 14:44:17.806] [info]  (main)         API call completed, response: []
+[2026-04-12 14:44:17.817] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 14:44:17.819] [info]  (main)         Saved 'since' value: 2026-04-12T11:20:18.526Z (for modal comparison)
+[2026-04-12 14:44:17.820] [info]  (main)         Updated baseline to: 2026-04-12T11:44:17.820Z (will be 'since' on next app start)
+[2026-04-12 14:44:17.821] [info]  (main)         Found new download options for 0 games
+[2026-04-12 14:44:17.821] [info]  (main)         Download sources check completed successfully
+[2026-04-12 14:44:18.320] [info]  (main)         Checking for update
+[2026-04-12 14:44:18.809] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 14:44:20.092] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 14:44:30.614] [info]  (main)         Released the lock
+[2026-04-12 14:44:37.378] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 14:44:37.394] [info]  (main)         Acquired the lock
+[2026-04-12 14:44:37.460] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 14:44:37.485] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 14:44:37.494] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 14:44:37.495] [info]  (main)         Using since: 2026-04-12T11:44:17.820Z (from last app start)
+[2026-04-12 14:44:37.496] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T11:44:17.820Z
+[2026-04-12 14:44:37.497] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T11:44:17.820Z'
+}
+[2026-04-12 14:44:37.675] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 14:44:37.726] [info]  (main)         API call completed, response: []
+[2026-04-12 14:44:37.728] [info]  (main)         Saved 'since' value: 2026-04-12T11:44:17.820Z (for modal comparison)
+[2026-04-12 14:44:37.729] [info]  (main)         Updated baseline to: 2026-04-12T11:44:37.728Z (will be 'since' on next app start)
+[2026-04-12 14:44:37.729] [info]  (main)         Found new download options for 0 games
+[2026-04-12 14:44:37.730] [info]  (main)         Download sources check completed successfully
+[2026-04-12 14:44:38.093] [info]  (main)         Checking for update
+[2026-04-12 14:44:39.282] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 14:44:39.579] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 15:13:37.779] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 15:13:37.813] [info]  (main)         Acquired the lock
+[2026-04-12 15:13:37.880] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 15:13:37.898] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 15:13:37.913] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 15:13:37.914] [info]  (main)         Using since: 2026-04-12T11:44:37.728Z (from last app start)
+[2026-04-12 15:13:37.915] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T11:44:37.728Z
+[2026-04-12 15:13:37.915] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T11:44:37.728Z'
+}
+[2026-04-12 15:13:38.204] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 15:13:38.571] [info]  (main)         Checking for update
+[2026-04-12 15:13:38.921] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 15:13:39.429] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 15:14:01.211] [info]  (main)         Released the lock
+[2026-04-12 15:49:48.583] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 15:49:48.598] [info]  (main)         Acquired the lock
+[2026-04-12 15:49:48.689] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 15:49:48.695] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 15:49:48.704] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 15:49:48.705] [info]  (main)         Using since: 2026-04-12T11:44:37.728Z (from last app start)
+[2026-04-12 15:49:48.706] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T11:44:37.728Z
+[2026-04-12 15:49:48.706] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T11:44:37.728Z'
+}
+[2026-04-12 15:49:48.911] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 15:49:48.923] [info]  (main)         API call completed, response: []
+[2026-04-12 15:49:48.925] [info]  (main)         Saved 'since' value: 2026-04-12T11:44:37.728Z (for modal comparison)
+[2026-04-12 15:49:48.925] [info]  (main)         Updated baseline to: 2026-04-12T12:49:48.925Z (will be 'since' on next app start)
+[2026-04-12 15:49:48.926] [info]  (main)         Found new download options for 0 games
+[2026-04-12 15:49:48.927] [info]  (main)         Download sources check completed successfully
+[2026-04-12 15:49:49.640] [info]  (main)         Checking for update
+[2026-04-12 15:49:50.008] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 15:49:50.225] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 15:50:13.232] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 15:52:27.088] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 15:52:27.107] [info]  (main)         Acquired the lock
+[2026-04-12 15:52:27.189] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 15:52:27.242] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 15:52:27.250] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 15:52:27.252] [info]  (main)         Using since: 2026-04-12T12:49:48.925Z (from last app start)
+[2026-04-12 15:52:27.252] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T12:49:48.925Z
+[2026-04-12 15:52:27.253] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T12:49:48.925Z'
+}
+[2026-04-12 15:52:27.442] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 15:52:27.454] [info]  (main)         API call completed, response: []
+[2026-04-12 15:52:27.457] [info]  (main)         Saved 'since' value: 2026-04-12T12:49:48.925Z (for modal comparison)
+[2026-04-12 15:52:27.458] [info]  (main)         Updated baseline to: 2026-04-12T12:52:27.457Z (will be 'since' on next app start)
+[2026-04-12 15:52:27.458] [info]  (main)         Found new download options for 0 games
+[2026-04-12 15:52:27.459] [info]  (main)         Download sources check completed successfully
+[2026-04-12 15:52:28.385] [info]  (main)         Checking for update
+[2026-04-12 15:52:29.604] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 15:52:30.113] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 15:52:55.295] [info]  (main)         Released the lock
+[2026-04-12 15:52:59.122] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 15:52:59.135] [info]  (main)         Acquired the lock
+[2026-04-12 15:52:59.196] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 15:52:59.219] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 15:52:59.225] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 15:52:59.226] [info]  (main)         Using since: 2026-04-12T12:52:27.457Z (from last app start)
+[2026-04-12 15:52:59.227] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T12:52:27.457Z
+[2026-04-12 15:52:59.227] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T12:52:27.457Z'
+}
+[2026-04-12 15:52:59.409] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 15:52:59.438] [info]  (main)         API call completed, response: []
+[2026-04-12 15:52:59.440] [info]  (main)         Saved 'since' value: 2026-04-12T12:52:27.457Z (for modal comparison)
+[2026-04-12 15:52:59.440] [info]  (main)         Updated baseline to: 2026-04-12T12:52:59.440Z (will be 'since' on next app start)
+[2026-04-12 15:52:59.441] [info]  (main)         Found new download options for 0 games
+[2026-04-12 15:52:59.441] [info]  (main)         Download sources check completed successfully
+[2026-04-12 15:52:59.880] [info]  (main)         Checking for update
+[2026-04-12 15:53:00.258] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 15:53:01.345] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 15:58:33.081] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 15:58:33.094] [info]  (main)         Acquired the lock
+[2026-04-12 15:58:33.204] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 15:58:33.211] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 15:58:33.219] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 15:58:33.220] [info]  (main)         Using since: 2026-04-12T12:52:59.440Z (from last app start)
+[2026-04-12 15:58:33.221] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T12:52:59.440Z
+[2026-04-12 15:58:33.222] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T12:52:59.440Z'
+}
+[2026-04-12 15:58:33.539] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 15:58:33.555] [info]  (main)         API call completed, response: []
+[2026-04-12 15:58:33.558] [info]  (main)         Saved 'since' value: 2026-04-12T12:52:59.440Z (for modal comparison)
+[2026-04-12 15:58:33.560] [info]  (main)         Updated baseline to: 2026-04-12T12:58:33.559Z (will be 'since' on next app start)
+[2026-04-12 15:58:33.560] [info]  (main)         Found new download options for 0 games
+[2026-04-12 15:58:33.561] [info]  (main)         Download sources check completed successfully
+[2026-04-12 15:58:36.005] [info]  (main)         Checking for update
+[2026-04-12 15:58:38.255] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 15:58:38.669] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:04:49.151] [info]  (main)         Checking for update
+[2026-04-12 16:04:49.808] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 16:04:49.853] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:12:35.916] [info]  (main)         Released the lock
+[2026-04-12 16:13:29.287] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 16:13:29.306] [info]  (main)         Acquired the lock
+[2026-04-12 16:13:29.407] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 16:13:29.448] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 16:13:29.479] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 16:13:29.485] [info]  (main)         Using since: 2026-04-12T12:58:33.559Z (from last app start)
+[2026-04-12 16:13:29.486] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T12:58:33.559Z
+[2026-04-12 16:13:29.487] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T12:58:33.559Z'
+}
+[2026-04-12 16:13:29.714] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 16:13:29.715] [info]  (main)         API call completed, response: []
+[2026-04-12 16:13:29.718] [info]  (main)         Saved 'since' value: 2026-04-12T12:58:33.559Z (for modal comparison)
+[2026-04-12 16:13:29.720] [info]  (main)         Updated baseline to: 2026-04-12T13:13:29.719Z (will be 'since' on next app start)
+[2026-04-12 16:13:29.720] [info]  (main)         Found new download options for 0 games
+[2026-04-12 16:13:29.721] [info]  (main)         Download sources check completed successfully
+[2026-04-12 16:13:30.239] [info]  (main)         Checking for update
+[2026-04-12 16:13:30.678] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 16:13:31.339] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:14:56.577] [info]  (main)         Checking for update
+[2026-04-12 16:14:57.184] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 16:14:57.190] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:15:13.070] [info]  (main)         Released the lock
+[2026-04-12 16:30:01.949] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 16:30:01.969] [info]  (main)         Acquired the lock
+[2026-04-12 16:30:02.030] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 16:30:02.052] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 16:30:02.067] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 16:30:02.069] [info]  (main)         Using since: 2026-04-12T13:13:29.719Z (from last app start)
+[2026-04-12 16:30:02.070] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T13:13:29.719Z
+[2026-04-12 16:30:02.071] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T13:13:29.719Z'
+}
+[2026-04-12 16:30:02.278] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 16:30:02.294] [info]  (main)         API call completed, response: []
+[2026-04-12 16:30:02.298] [info]  (main)         Saved 'since' value: 2026-04-12T13:13:29.719Z (for modal comparison)
+[2026-04-12 16:30:02.299] [info]  (main)         Updated baseline to: 2026-04-12T13:30:02.298Z (will be 'since' on next app start)
+[2026-04-12 16:30:02.299] [info]  (main)         Found new download options for 0 games
+[2026-04-12 16:30:02.300] [info]  (main)         Download sources check completed successfully
+[2026-04-12 16:30:02.788] [info]  (main)         Checking for update
+[2026-04-12 16:30:03.164] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 16:30:04.322] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:34:23.288] [info]  (main)         Released the lock
+[2026-04-12 16:54:48.137] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 16:54:48.151] [info]  (main)         Acquired the lock
+[2026-04-12 16:54:48.232] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 16:54:48.270] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 16:54:48.284] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 16:54:48.286] [info]  (main)         Using since: 2026-04-12T13:30:02.298Z (from last app start)
+[2026-04-12 16:54:48.287] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T13:30:02.298Z
+[2026-04-12 16:54:48.288] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T13:30:02.298Z'
+}
+[2026-04-12 16:54:48.600] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 16:54:48.603] [info]  (main)         API call completed, response: []
+[2026-04-12 16:54:48.605] [info]  (main)         Saved 'since' value: 2026-04-12T13:30:02.298Z (for modal comparison)
+[2026-04-12 16:54:48.605] [info]  (main)         Updated baseline to: 2026-04-12T13:54:48.605Z (will be 'since' on next app start)
+[2026-04-12 16:54:48.606] [info]  (main)         Found new download options for 0 games
+[2026-04-12 16:54:48.607] [info]  (main)         Download sources check completed successfully
+[2026-04-12 16:54:48.922] [info]  (main)         Checking for update
+[2026-04-12 16:54:50.180] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 16:54:50.747] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:55:52.714] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 16:55:52.734] [info]  (main)         Acquired the lock
+[2026-04-12 16:55:52.808] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 16:55:52.827] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 16:55:52.845] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 16:55:52.848] [info]  (main)         Using since: 2026-04-12T13:54:48.605Z (from last app start)
+[2026-04-12 16:55:52.848] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T13:54:48.605Z
+[2026-04-12 16:55:52.849] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T13:54:48.605Z'
+}
+[2026-04-12 16:55:53.011] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 16:55:53.063] [info]  (main)         API call completed, response: []
+[2026-04-12 16:55:53.067] [info]  (main)         Saved 'since' value: 2026-04-12T13:54:48.605Z (for modal comparison)
+[2026-04-12 16:55:53.068] [info]  (main)         Updated baseline to: 2026-04-12T13:55:53.068Z (will be 'since' on next app start)
+[2026-04-12 16:55:53.069] [info]  (main)         Found new download options for 0 games
+[2026-04-12 16:55:53.069] [info]  (main)         Download sources check completed successfully
+[2026-04-12 16:55:53.506] [info]  (main)         Checking for update
+[2026-04-12 16:55:55.308] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 16:55:55.694] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:56:19.395] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 16:56:34.397] [info]  (main)         [Downloads] Cancel requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 16:56:47.842] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 16:56:49.263] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 16:56:50.601] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 16:56:51.982] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 16:56:52.679] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 16:56:59.686] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-12 16:56:59.871] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 16:56:59.872] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 16:56:59.873] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 16:57:00.142] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 16:57:00.381] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=MjTjBjPp2x_DXt8ELLKIUxf7bUAPsSIlC0AUB2Mb0EyCte79_gAxkJy3oNQBbTnoTsrgvwqt5G5pejoQuq5vs_DLwGjaArmBOkC_wkS3es6q67sM6RoiMlU75BbECiCSgnYifDpQkiDz_O1f0s2Cyi4NibUTR4aV2d4TGKdUA8JhdTQ1_mD3YAxKiWpeeQM
+[2026-04-12 16:57:00.381] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 16:57:00.382] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 16:57:00.670] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 16:57:00.671] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 16:57:00.672] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 16:57:08.601] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 16:57:15.087] [info]  (main)         Checking for update
+[2026-04-12 16:57:15.484] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 16:57:16.710] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:57:16.792] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 16:57:25.445] [info]  (main)         Checking for update
+[2026-04-12 16:57:26.252] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 16:57:26.356] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 16:59:02.407] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 17:14:03.732] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 17:14:03.751] [info]  (main)         Acquired the lock
+[2026-04-12 17:14:03.827] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 17:14:03.859] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 17:14:03.865] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 17:14:03.879] [info]  (main)         Using since: 2026-04-12T13:55:53.068Z (from last app start)
+[2026-04-12 17:14:03.879] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T13:55:53.068Z
+[2026-04-12 17:14:03.880] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T13:55:53.068Z'
+}
+[2026-04-12 17:14:04.217] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 17:14:04.274] [info]  (main)         API call completed, response: []
+[2026-04-12 17:14:04.276] [info]  (main)         Saved 'since' value: 2026-04-12T13:55:53.068Z (for modal comparison)
+[2026-04-12 17:14:04.277] [info]  (main)         Updated baseline to: 2026-04-12T14:14:04.277Z (will be 'since' on next app start)
+[2026-04-12 17:14:04.278] [info]  (main)         Found new download options for 0 games
+[2026-04-12 17:14:04.278] [info]  (main)         Download sources check completed successfully
+[2026-04-12 17:14:04.564] [info]  (main)         Checking for update
+[2026-04-12 17:14:06.144] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 17:14:06.697] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 17:23:34.672] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 17:23:34.685] [info]  (main)         Acquired the lock
+[2026-04-12 17:23:34.818] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 17:23:34.851] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 17:23:34.869] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 17:23:34.871] [info]  (main)         Using since: 2026-04-12T14:14:04.277Z (from last app start)
+[2026-04-12 17:23:34.872] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T14:14:04.277Z
+[2026-04-12 17:23:34.872] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T14:14:04.277Z'
+}
+[2026-04-12 17:23:35.046] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 17:23:35.094] [info]  (main)         API call completed, response: []
+[2026-04-12 17:23:35.105] [info]  (main)         Saved 'since' value: 2026-04-12T14:14:04.277Z (for modal comparison)
+[2026-04-12 17:23:35.107] [info]  (main)         Updated baseline to: 2026-04-12T14:23:35.106Z (will be 'since' on next app start)
+[2026-04-12 17:23:35.108] [info]  (main)         Found new download options for 0 games
+[2026-04-12 17:23:35.108] [info]  (main)         Download sources check completed successfully
+[2026-04-12 17:23:35.667] [info]  (main)         Checking for update
+[2026-04-12 17:23:36.492] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 17:23:37.767] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 17:24:45.782] [info]  (main)         Released the lock
+[2026-04-12 17:31:44.572] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 17:31:44.588] [info]  (main)         Acquired the lock
+[2026-04-12 17:31:44.669] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 17:31:44.709] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 17:31:44.721] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 17:31:44.723] [info]  (main)         Using since: 2026-04-12T14:23:35.106Z (from last app start)
+[2026-04-12 17:31:44.724] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T14:23:35.106Z
+[2026-04-12 17:31:44.724] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T14:23:35.106Z'
+}
+[2026-04-12 17:31:44.924] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 17:31:44.964] [info]  (main)         API call completed, response: []
+[2026-04-12 17:31:44.966] [info]  (main)         Saved 'since' value: 2026-04-12T14:23:35.106Z (for modal comparison)
+[2026-04-12 17:31:44.967] [info]  (main)         Updated baseline to: 2026-04-12T14:31:44.967Z (will be 'since' on next app start)
+[2026-04-12 17:31:44.968] [info]  (main)         Found new download options for 0 games
+[2026-04-12 17:31:44.968] [info]  (main)         Download sources check completed successfully
+[2026-04-12 17:31:45.583] [info]  (main)         Checking for update
+[2026-04-12 17:31:47.377] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 17:31:47.394] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 17:33:23.468] [info]  (main)         Released the lock
+[2026-04-12 17:45:59.837] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 17:45:59.852] [info]  (main)         Acquired the lock
+[2026-04-12 17:45:59.956] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 17:46:00.044] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 17:46:00.060] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 17:46:00.061] [info]  (main)         Using since: 2026-04-12T14:31:44.967Z (from last app start)
+[2026-04-12 17:46:00.062] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T14:31:44.967Z
+[2026-04-12 17:46:00.063] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T14:31:44.967Z'
+}
+[2026-04-12 17:46:00.323] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 17:46:00.326] [info]  (main)         API call completed, response: []
+[2026-04-12 17:46:00.330] [info]  (main)         Saved 'since' value: 2026-04-12T14:31:44.967Z (for modal comparison)
+[2026-04-12 17:46:00.332] [info]  (main)         Updated baseline to: 2026-04-12T14:46:00.331Z (will be 'since' on next app start)
+[2026-04-12 17:46:00.332] [info]  (main)         Found new download options for 0 games
+[2026-04-12 17:46:00.333] [info]  (main)         Download sources check completed successfully
+[2026-04-12 17:46:00.842] [info]  (main)         Checking for update
+[2026-04-12 17:46:02.874] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 17:46:03.587] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 17:46:44.913] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 17:46:52.600] [info]  (main)         [Downloads] Cancel requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 17:47:15.615] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 17:47:20.741] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-12 17:47:21.061] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 17:47:21.062] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 17:47:21.062] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 17:47:21.343] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 17:47:21.575] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=7Ga96Eoe-eRg62-Pgvl_LGgaHsbAuiCRXH90JFY53jhkas_kHjc-gBLpZYUnjWRL0htVOc_zUJOP-7b6ZclA0LaXAZAD4Qp-YhTSgjZysFcNrRsJyOFJKvbijonsUY3xzOlkU0wLM_JCN5KLR9kL4365LIa8QtypgjnXsMym4f15R5-Knt64_Tr1cZoSIik
+[2026-04-12 17:47:21.575] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 17:47:21.576] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 17:47:21.984] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 17:47:21.985] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 17:47:21.985] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 17:47:27.447] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 18:50:29.652] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 18:50:29.669] [info]  (main)         Acquired the lock
+[2026-04-12 18:50:29.795] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 18:50:29.844] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 18:50:30.105] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 18:50:30.117] [info]  (main)         Using since: 2026-04-12T14:46:00.331Z (from last app start)
+[2026-04-12 18:50:30.119] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T14:46:00.331Z
+[2026-04-12 18:50:30.120] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T14:46:00.331Z'
+}
+[2026-04-12 18:50:30.329] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 18:50:45.175] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 18:50:45.662] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 18:51:47.928] [info]  (main)         Released the lock
+[2026-04-12 18:57:41.640] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 18:57:41.657] [info]  (main)         Acquired the lock
+[2026-04-12 18:57:41.747] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 18:57:41.765] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 18:57:41.776] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 18:57:41.777] [info]  (main)         Using since: 2026-04-12T14:46:00.331Z (from last app start)
+[2026-04-12 18:57:41.778] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T14:46:00.331Z
+[2026-04-12 18:57:41.778] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T14:46:00.331Z'
+}
+[2026-04-12 18:57:42.034] [info]  (main)         API call completed, response: []
+[2026-04-12 18:57:42.036] [info]  (main)         Saved 'since' value: 2026-04-12T14:46:00.331Z (for modal comparison)
+[2026-04-12 18:57:42.038] [info]  (main)         Updated baseline to: 2026-04-12T15:57:42.037Z (will be 'since' on next app start)
+[2026-04-12 18:57:42.038] [info]  (main)         Found new download options for 0 games
+[2026-04-12 18:57:42.039] [info]  (main)         Download sources check completed successfully
+[2026-04-12 18:57:42.077] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 18:57:42.391] [info]  (main)         Checking for update
+[2026-04-12 18:57:42.698] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 18:57:44.136] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 18:57:55.046] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 18:57:57.818] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 18:57:57.820] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 18:57:57.821] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 18:57:57.822] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 18:57:58.146] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 18:57:58.393] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=nZWBNtuuTESvjYTQhLcDOR8VLdnrqeIFgJBxM4ipkBpnEfXXQ4Ifu6PigXd1G83nbeTaQjkFSDKPHUDdq3zlTL4sd0tbiSsWJ5pO-7YvNKpHwXaMgNbbnLU-VzZyJ5MwOyPBQCDaeVOS1_UZ_fgdjaHGDL3nLBn3EBX9kKjr9VfDNnUCwvN0HEDa6-6BiDg
+[2026-04-12 18:57:58.393] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 18:57:58.394] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 18:57:58.825] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 18:57:58.826] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 18:57:58.826] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 18:57:59.525] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 18:58:15.084] [info]  (main)         Released the lock
+[2026-04-12 19:07:18.631] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 19:07:18.638] [info]  (main)         Acquired the lock
+[2026-04-12 19:07:18.748] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 19:07:18.789] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 19:07:18.797] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 19:07:18.812] [info]  (main)         Using since: 2026-04-12T15:57:42.037Z (from last app start)
+[2026-04-12 19:07:18.812] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T15:57:42.037Z
+[2026-04-12 19:07:18.813] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T15:57:42.037Z'
+}
+[2026-04-12 19:07:19.020] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 19:07:19.021] [info]  (main)         API call completed, response: []
+[2026-04-12 19:07:19.026] [info]  (main)         Saved 'since' value: 2026-04-12T15:57:42.037Z (for modal comparison)
+[2026-04-12 19:07:19.027] [info]  (main)         Updated baseline to: 2026-04-12T16:07:19.027Z (will be 'since' on next app start)
+[2026-04-12 19:07:19.028] [info]  (main)         Found new download options for 0 games
+[2026-04-12 19:07:19.028] [info]  (main)         Download sources check completed successfully
+[2026-04-12 19:07:19.693] [info]  (main)         Checking for update
+[2026-04-12 19:07:20.106] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 19:07:21.761] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 19:07:42.121] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 19:07:44.956] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 19:07:44.958] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 19:07:44.959] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 19:07:44.960] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 19:07:45.259] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 19:07:45.535] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=oCnAAwWgBQ-eb6YQiW7QaT7-dpWeszzPP1soJBQQiEWwio8COp_5ngLATwTTgHO2E3FqFAHvDJnGUuj0VbDhajTWrzDgQVL7wVmvU04Dba7RRav1ZN-hybSmLWGSWPGqSQjpkGhHuBTcKq94M19Q4orL5N5wL2yTthlVvdaVQ5pctQZpwhMhYFWrhaTu2gE
+[2026-04-12 19:07:45.536] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 19:07:45.537] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 19:07:45.818] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 19:07:45.819] [info]  (main)         [Downloads] steam:322170 is already active, skipping
+[2026-04-12 19:07:45.939] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 19:07:45.940] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 19:07:45.941] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 19:07:46.136] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 19:07:46.137] [info]  (main)         [Downloads] steam:322170 is already active, skipping
+[2026-04-12 19:07:46.319] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 19:07:46.320] [info]  (main)         [Downloads] steam:322170 is already active, skipping
+[2026-04-12 19:07:49.472] [info]  (main)         [DownloadManager] Cancelling JS download
+[2026-04-12 19:07:49.473] [info]  (main)         [JsHttpDownloader] Cancelling download
+[2026-04-12 19:07:49.477] [info]  (main)         [JsHttpDownloader] Deleted partial file
+[2026-04-12 19:07:49.481] [info]  (main)         [Downloads] Cancel requested for steam:322170 (status=active, queued=true)
+[2026-04-12 19:07:49.483] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 19:08:15.382] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 19:08:18.953] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-12 19:08:19.183] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 19:08:19.184] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 19:08:19.184] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 19:08:19.423] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 19:08:19.634] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=anwNKRliZHtkGUTPf21r4HRygiloqagjpdasD7s0ADBVMwUNKU7KWzKarKtp3orw-X52DVRKM6dRD5O2MaFn-Qucjsk13dmnBRawt6C6aDY_Cpi5oCRCY0t5Nc1RQza2F6t6uAsfBhHkLJt3aGCvkl1UUupVlVElEaARSI5g5-93evqhr4ZUR5QSKJKa24A
+[2026-04-12 19:08:19.634] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 19:08:19.635] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 19:08:19.879] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 19:08:19.880] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 19:08:19.880] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 19:09:44.673] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 19:16:02.984] [info]  (main)         Released the lock
+[2026-04-12 19:36:44.420] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 19:36:44.431] [info]  (main)         Acquired the lock
+[2026-04-12 19:36:44.513] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 19:36:44.546] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 19:36:44.557] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 19:36:44.558] [info]  (main)         Using since: 2026-04-12T16:07:19.027Z (from last app start)
+[2026-04-12 19:36:44.559] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T16:07:19.027Z
+[2026-04-12 19:36:44.559] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T16:07:19.027Z'
+}
+[2026-04-12 19:36:44.748] [info]  (main)         API call completed, response: []
+[2026-04-12 19:36:44.752] [info]  (main)         Saved 'since' value: 2026-04-12T16:07:19.027Z (for modal comparison)
+[2026-04-12 19:36:44.754] [info]  (main)         Updated baseline to: 2026-04-12T16:36:44.753Z (will be 'since' on next app start)
+[2026-04-12 19:36:44.754] [info]  (main)         Found new download options for 0 games
+[2026-04-12 19:36:44.755] [info]  (main)         Download sources check completed successfully
+[2026-04-12 19:36:44.787] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 19:36:45.344] [info]  (main)         Checking for update
+[2026-04-12 19:36:46.593] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 19:36:47.518] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 19:37:06.195] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 19:37:08.790] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 19:37:08.792] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 19:37:08.793] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 19:37:08.794] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 19:37:09.058] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 19:37:09.282] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=MZRDKXXmbnHvdNMTmowNioHQcGlhMJ4Ay90iy12dg3f26WS2La-Y2CqfvJToWfMfuXdXfoIOG1D_R5hnKt7WFkP7OReP0sIZ3ufB2fuPkBBJaof7OKm2Qs7bng8MulKAoRECmZWOEoanfXmCXfyBQ8pOCpHNUEak6c6pcBxsxXj5SbViNjyvhPd2nW0t3WQ
+[2026-04-12 19:37:09.283] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 19:37:09.283] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 19:37:09.659] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 19:37:09.660] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 19:37:09.660] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 19:37:16.336] [info]  (main)         [DownloadManager] Cancelling JS download
+[2026-04-12 19:37:16.337] [info]  (main)         [JsHttpDownloader] Cancelling download
+[2026-04-12 19:37:16.340] [info]  (main)         [JsHttpDownloader] Deleted partial file
+[2026-04-12 19:37:16.343] [info]  (main)         [Downloads] Cancel requested for steam:322170 (status=active, queued=true)
+[2026-04-12 19:37:16.344] [info]  (main)         [JsHttpDownloader] Download paused by user
+[2026-04-12 19:37:32.465] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 19:37:35.148] [info]  (main)         [Downloads] Start requested for steam:322170 (downloader=8, queued=true)
+[2026-04-12 19:37:35.414] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 19:37:35.415] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 19:37:35.415] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 19:37:35.617] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 19:37:35.829] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=8ssNgnJYwRSZH9w3YGOIiFNksqkpZHgX9ievkwwFq-MQ2Xx7GQcKAK-NiFMi4S6CyFprI2zNBTdXOKU652EiGd75C3Exqcb2BRuDOcTIHxan_GEsn1Zigm-n6nob29kNXC7_Z-_R9-pTm-BpKP91EO0r6TYRwm78-4DSzXt2jhmF8NAvz8Hp-gOWOzjM1Y8
+[2026-04-12 19:37:35.830] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 19:37:35.831] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 19:37:36.083] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 19:37:36.083] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 19:37:36.084] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 19:37:44.825] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 19:37:44.825] [info]  (main)         [Downloads] steam:322170 is already active, skipping
+[2026-04-12 19:38:09.484] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 19:38:12.030] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 19:38:26.862] [info]  (main)         [AuthWindow] Loading URL: https://auth.hydralauncher.gg/?lng=en
+[2026-04-12 19:38:27.736] [info]  (main)         [AuthWindow] Page loaded successfully
+[2026-04-12 19:38:39.268] [info]  (main)         [AuthWindow] Navigation attempt to: hydralauncher://auth?payload=eyJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYzJWeVNXUWlPaUpZZVVRMmJrRm5OU0lzSW5ObGMzTnBiMjVKWkNJNklsRTFSVWRoTW1GUklpd2ljMk52Y0dVaU9sc2lLaUpkTENKcFlYUWlPakUzTnpZd01URTVNVGtzSW1WNGNDSTZNVGMzTmpBeE5UVXhPWDAuekVlbWVIbFBvTjNSNHRFakxzcWNvSXZCQU9xTUFsajRVNTY2ZDhpeFIwayIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5U1dRaU9pSlllVVEyYmtGbk5TSXNJbk5sYzNOcGIyNUpaQ0k2SWxFMVJVZGhNbUZSSWl3aWFXRjBJam94TnpjMk1ERXhPVEU1TENKbGVIQWlPakU0TURjMU5EYzVNVGw5LlFwY0NTSzdzNkNVMnViMnEwWERoQ1lySnV3endZbFlJTW1oakNGc2ZYeUEiLCJmZWF0dXJlYmFzZUp3dCI6IiIsIndvcmt3b25kZXJzSnd0IjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpiSFZuSWpvaWFIbGtjbUVpTENKMWMyVnlTV1FpT2pFeE5qUXhOakVzSW1WNGRHVnlibUZzVlhObGNrbGtJam9pV0hsRU5tNUJaelVpTENKcFlYUWlPakUzTnpZd01URTVNVGw5LnBoYXlzNXlUYjdLU1M5SHFGNnc1M3NvcGtycURZVW1yZ0dYNkswaTFUTmMifQ%3D%3D
+[2026-04-12 19:38:46.236] [info]  (main)         [AuthWindow] Navigation attempt to: hydralauncher://auth?payload=eyJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYzJWeVNXUWlPaUpZZVVRMmJrRm5OU0lzSW5ObGMzTnBiMjVKWkNJNkltcFlNelp4ZW10Uklpd2ljMk52Y0dVaU9sc2lLaUpkTENKcFlYUWlPakUzTnpZd01URTVNallzSW1WNGNDSTZNVGMzTmpBeE5UVXlObjAuZHB4WU9WeFJ3cWpZZFB2OXh3Z1hFQzY5Z2UxS2Q2UlB6YURpRzhqTS0zbyIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5U1dRaU9pSlllVVEyYmtGbk5TSXNJbk5sYzNOcGIyNUpaQ0k2SW1wWU16WnhlbXRSSWl3aWFXRjBJam94TnpjMk1ERXhPVEkyTENKbGVIQWlPakU0TURjMU5EYzVNalo5Li1aVHFBbTB2MU1VaXdvXzQ3Y3ZEb2dEOHA2Q091YzJDU2R3NldOT0ZHQTAiLCJmZWF0dXJlYmFzZUp3dCI6IiIsIndvcmt3b25kZXJzSnd0IjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpiSFZuSWpvaWFIbGtjbUVpTENKMWMyVnlTV1FpT2pFeE5qUXhOakVzSW1WNGRHVnlibUZzVlhObGNrbGtJam9pV0hsRU5tNUJaelVpTENKcFlYUWlPakUzTnpZd01URTVNalo5Ljl2UkNFMHE0Z0U2RExtQVJVM3lvb0J2eU9tUzFRNGhlMFpmWXpSajFCRnMifQ%3D%3D
+[2026-04-12 19:38:48.484] [info]  (main)         [AuthWindow] Navigation attempt to: hydralauncher://auth?payload=eyJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYzJWeVNXUWlPaUpZZVVRMmJrRm5OU0lzSW5ObGMzTnBiMjVKWkNJNklubE1XamRPZUVKcUlpd2ljMk52Y0dVaU9sc2lLaUpkTENKcFlYUWlPakUzTnpZd01URTVNamdzSW1WNGNDSTZNVGMzTmpBeE5UVXlPSDAuNXFpaVZFZWRNd2hHUnprODk4ZFlmSnRzR3hEZ1I4aEZKZW1ScGRCVTlDWSIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5U1dRaU9pSlllVVEyYmtGbk5TSXNJbk5sYzNOcGIyNUpaQ0k2SW5sTVdqZE9lRUpxSWl3aWFXRjBJam94TnpjMk1ERXhPVEk0TENKbGVIQWlPakU0TURjMU5EYzVNamg5LjEycDNrMU12aXFHSEhMNE1MWFByUFZRdk14OVR0d1Y3MVM5bTk5bzVLNTAiLCJmZWF0dXJlYmFzZUp3dCI6IiIsIndvcmt3b25kZXJzSnd0IjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpiSFZuSWpvaWFIbGtjbUVpTENKMWMyVnlTV1FpT2pFeE5qUXhOakVzSW1WNGRHVnlibUZzVlhObGNrbGtJam9pV0hsRU5tNUJaelVpTENKcFlYUWlPakUzTnpZd01URTVNamg5LlVsVGxlRGh4RzEyWUVOQ0dWMG9nVXhMVmxVbkpJcHp6Ul8xbXBwQkdINHMifQ%3D%3D
+[2026-04-12 19:38:50.179] [info]  (main)         [AuthWindow] Navigation attempt to: hydralauncher://auth?payload=eyJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYzJWeVNXUWlPaUpZZVVRMmJrRm5OU0lzSW5ObGMzTnBiMjVKWkNJNklubFBVRkl6VnpCUklpd2ljMk52Y0dVaU9sc2lLaUpkTENKcFlYUWlPakUzTnpZd01URTVNekFzSW1WNGNDSTZNVGMzTmpBeE5UVXpNSDAubGlMU0FzREJvZnZMakpzaFRsYTBXMEdRMTNfbGVydG1hWV8zZnl1OFVXQSIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5U1dRaU9pSlllVVEyYmtGbk5TSXNJbk5sYzNOcGIyNUpaQ0k2SW5sUFVGSXpWekJSSWl3aWFXRjBJam94TnpjMk1ERXhPVE13TENKbGVIQWlPakU0TURjMU5EYzVNekI5LmNqa09TT0xwYmd6dHhUT1duQTd2LUltaXRlM0M3Q01JdzAwLWlFN1lRNEEiLCJmZWF0dXJlYmFzZUp3dCI6IiIsIndvcmt3b25kZXJzSnd0IjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpiSFZuSWpvaWFIbGtjbUVpTENKMWMyVnlTV1FpT2pFeE5qUXhOakVzSW1WNGRHVnlibUZzVlhObGNrbGtJam9pV0hsRU5tNUJaelVpTENKcFlYUWlPakUzTnpZd01URTVNekI5LllueDA2bmxUVFNpQWVlTTFMaE1YaGlDTXd2TFB1OF9QUElQQWxXdU41a2MifQ%3D%3D
+[2026-04-12 19:38:57.009] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 19:39:06.007] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 19:39:08.767] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 19:39:08.768] [info]  (main)         [Downloads] steam:322170 is already active, skipping
+[2026-04-12 19:41:54.164] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 19:41:54.164] [info]  (main)         [Downloads] steam:322170 is already active, skipping
+[2026-04-12 19:43:16.700] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)
+[2026-04-12 19:46:59.608] [info]  (main)         Released the lock
+[2026-04-12 20:30:50.487] [info]  (main)         Steam OS theme already exists, skipping initialization
+[2026-04-12 20:30:50.501] [info]  (main)         Acquired the lock
+[2026-04-12 20:30:50.862] [info]  (main)         DownloadSourcesChecker.checkForChanges() called
+[2026-04-12 20:30:50.938] [info]  (main)         Found 4 total games, 4 non-custom games
+[2026-04-12 20:30:50.941] [info]  (main)         Found 4 download sources: 2RLK2Zga, 89nGD7g6, mbjQRYn3, v6n5BBgm
+[2026-04-12 20:30:50.955] [info]  (main)         Using since: 2026-04-12T16:36:44.753Z (from last app start)
+[2026-04-12 20:30:50.956] [info]  (main)         Checking download sources changes for 4 non-custom games since 2026-04-12T16:36:44.753Z
+[2026-04-12 20:30:50.956] [info]  (main)         Making API call to check download sources changes with: {
+  downloadSourceIds: [ '2RLK2Zga', '89nGD7g6', 'mbjQRYn3', 'v6n5BBgm' ],
+  gamesCount: 4,
+  since: '2026-04-12T16:36:44.753Z'
+}
+[2026-04-12 20:30:51.378] [info]  (main)         Reconnecting in 1s...
+[2026-04-12 20:30:51.399] [info]  (main)         API call completed, response: []
+[2026-04-12 20:30:51.405] [info]  (main)         Saved 'since' value: 2026-04-12T16:36:44.753Z (for modal comparison)
+[2026-04-12 20:30:51.408] [info]  (main)         Updated baseline to: 2026-04-12T17:30:51.406Z (will be 'since' on next app start)
+[2026-04-12 20:30:51.409] [info]  (main)         Found new download options for 0 games
+[2026-04-12 20:30:51.410] [info]  (main)         Download sources check completed successfully
+[2026-04-12 20:30:51.987] [info]  (main)         Checking for update
+[2026-04-12 20:30:53.282] [info]  (renderer)     Initializing Hydra Resources
+[2026-04-12 20:30:55.201] [info]  (renderer)     Work Wonders SDK initialized
+[2026-04-12 20:30:58.990] [info]  (main)         [AuthWindow] Loading URL: https://auth.hydralauncher.gg/?lng=en
+[2026-04-12 20:30:59.574] [info]  (main)         [AuthWindow] Page loaded successfully
+[2026-04-12 20:31:23.931] [info]  (main)         [AuthWindow] Navigation attempt to: hydralauncher://auth?payload=eyJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYzJWeVNXUWlPaUpZZVVRMmJrRm5OU0lzSW5ObGMzTnBiMjVKWkNJNkltbzRWMFJNWVRoUklpd2ljMk52Y0dVaU9sc2lLaUpkTENKcFlYUWlPakUzTnpZd01UVXdPRFFzSW1WNGNDSTZNVGMzTmpBeE9EWTROSDAuSm5lOEpBVFptNTdNeFNGYkQ1X2VQTS0tYVc5SF9RQS0wRXZfazNGMm1iNCIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5U1dRaU9pSlllVVEyYmtGbk5TSXNJbk5sYzNOcGIyNUpaQ0k2SW1vNFYwUk1ZVGhSSWl3aWFXRjBJam94TnpjMk1ERTFNRGcwTENKbGVIQWlPakU0TURjMU5URXdPRFI5LmxxcGowQU9FRWFZWU9MaVlqbjkzTVA1NnRXS01lUW9PbUVLazZiQUE2NE0iLCJmZWF0dXJlYmFzZUp3dCI6IiIsIndvcmt3b25kZXJzSnd0IjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpiSFZuSWpvaWFIbGtjbUVpTENKMWMyVnlTV1FpT2pFeE5qUXhOakVzSW1WNGRHVnlibUZzVlhObGNrbGtJam9pV0hsRU5tNUJaelVpTENKcFlYUWlPakUzTnpZd01UVXdPRFI5LnJqWlotd3NMMHhyNFUybW1wa19ITzg3SmVnengxRVRyTGtlM0VjOUtaRUUifQ%3D%3D
+[2026-04-12 20:31:25.778] [info]  (main)         [AuthWindow] Navigation attempt to: hydralauncher://auth?payload=eyJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYzJWeVNXUWlPaUpZZVVRMmJrRm5OU0lzSW5ObGMzTnBiMjVKWkNJNklsRkJlbXRGZGsxcUlpd2ljMk52Y0dVaU9sc2lLaUpkTENKcFlYUWlPakUzTnpZd01UVXdPRFlzSW1WNGNDSTZNVGMzTmpBeE9EWTRObjAuVkxES25tc3poUXhRcHd6LXRETldBVGxGU21weXpPeVlwbDJVM1dna3ZDUSIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5U1dRaU9pSlllVVEyYmtGbk5TSXNJbk5sYzNOcGIyNUpaQ0k2SWxGQmVtdEZkazFxSWl3aWFXRjBJam94TnpjMk1ERTFNRGcyTENKbGVIQWlPakU0TURjMU5URXdPRFo5LlhTRGpGSHpzaEwxcWNReEoyc01Ud2NzZFlBUzZEQWVHRGt1M1FQQWplY00iLCJmZWF0dXJlYmFzZUp3dCI6IiIsIndvcmt3b25kZXJzSnd0IjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpiSFZuSWpvaWFIbGtjbUVpTENKMWMyVnlTV1FpT2pFeE5qUXhOakVzSW1WNGRHVnlibUZzVlhObGNrbGtJam9pV0hsRU5tNUJaelVpTENKcFlYUWlPakUzTnpZd01UVXdPRFo5LlNvbUttMUZvWjFuc3RFRFg4YTVfd2pEakJ0Sndwc0FiTHJOQ2ZISUdCT2sifQ%3D%3D
+[2026-04-12 20:31:33.862] [info]  (main)         [AuthWindow] Navigation attempt to: hydralauncher://auth?payload=eyJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYzJWeVNXUWlPaUpZZVVRMmJrRm5OU0lzSW5ObGMzTnBiMjVKWkNJNkltZFFZakpyTVVkUklpd2ljMk52Y0dVaU9sc2lLaUpkTENKcFlYUWlPakUzTnpZd01UVXdPVFFzSW1WNGNDSTZNVGMzTmpBeE9EWTVOSDAuc1dxb2ZGMll1UWVDa1N5WHQtTXZ4N29yY2ZaOWdHT0R4VGtQQTg4Q0xNMCIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5U1dRaU9pSlllVVEyYmtGbk5TSXNJbk5sYzNOcGIyNUpaQ0k2SW1kUVlqSnJNVWRSSWl3aWFXRjBJam94TnpjMk1ERTFNRGswTENKbGVIQWlPakU0TURjMU5URXdPVFI5LnllN1JndzVSN1BtMTRtb1hQUG5QaEhsU0c0aUhRVmlfV3p4bUhac2dSaVEiLCJmZWF0dXJlYmFzZUp3dCI6IiIsIndvcmt3b25kZXJzSnd0IjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpiSFZuSWpvaWFIbGtjbUVpTENKMWMyVnlTV1FpT2pFeE5qUXhOakVzSW1WNGRHVnlibUZzVlhObGNrbGtJam9pV0hsRU5tNUJaelVpTENKcFlYUWlPakUzTnpZd01UVXdPVFI5Lk54bHJENzNKelRoQUduWGltOTZxcWhNbllFVDRsQVNhRXlRdUVhbUpUa0EifQ%3D%3D
+[2026-04-12 20:31:35.797] [info]  (main)         [AuthWindow] Navigation attempt to: hydralauncher://auth?payload=eyJhY2Nlc3NUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoxYzJWeVNXUWlPaUpZZVVRMmJrRm5OU0lzSW5ObGMzTnBiMjVKWkNJNkltcE9Xa3B4TmxkcUlpd2ljMk52Y0dVaU9sc2lLaUpkTENKcFlYUWlPakUzTnpZd01UVXdPVFlzSW1WNGNDSTZNVGMzTmpBeE9EWTVObjAuVkItb1hndnNIRmE0RjNSaVRlUEpsU1JSNFNLeVJfWTFfU0RxS2p0TlVQayIsImV4cGlyZXNJbiI6MzYwMCwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SjFjMlZ5U1dRaU9pSlllVVEyYmtGbk5TSXNJbk5sYzNOcGIyNUpaQ0k2SW1wT1drcHhObGRxSWl3aWFXRjBJam94TnpjMk1ERTFNRGsyTENKbGVIQWlPakU0TURjMU5URXdPVFo5LlMwMXhtM2d5UktkX2lBWU41ZmpCUDZpdVZFdlc5Y21KaFJ0THJjUi1TV3ciLCJmZWF0dXJlYmFzZUp3dCI6IiIsIndvcmt3b25kZXJzSnd0IjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnpiSFZuSWpvaWFIbGtjbUVpTENKMWMyVnlTV1FpT2pFeE5qUXhOakVzSW1WNGRHVnlibUZzVlhObGNrbGtJam9pV0hsRU5tNUJaelVpTENKcFlYUWlPakUzTnpZd01UVXdPVFo5LmtGMlZTbE51dkVfUUxuSVo1WXVxNEtUd3NLd01LVGFJd3NMNlExUUk0bHcifQ%3D%3D
+[2026-04-12 20:33:29.862] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 20:33:32.652] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=paused, queued=true)
+[2026-04-12 20:33:32.654] [info]  (main)         [DownloadManager] startDownload called for steam:322170, isHttp=true, downloader=8
+[2026-04-12 20:33:32.655] [info]  (main)         [DownloadManager] Using JS HTTP downloader
+[2026-04-12 20:33:32.655] [info]  (main)         [DownloadManager] State set: downloadingGameId=steam:322170, isPreparing=true, usingJs=true
+[2026-04-12 20:33:32.656] [info]  (main)         [DownloadManager] Getting JS download options...
+[2026-04-12 20:33:32.657] [info]  (main)         [DownloadManager] Processing Buzzheavier download for URI: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 20:33:32.657] [info]  (main)         [Buzzheavier] Starting download link extraction for: https://buzzheavier.com/pzm4ncupaxrl
+[2026-04-12 20:33:32.962] [info]  (main)         [Buzzheavier] Making HEAD request to: https://buzzheavier.com/pzm4ncupaxrl/download
+[2026-04-12 20:33:33.215] [info]  (main)         [Buzzheavier] Received hx-redirect header: https://fafda.to/d/pzm4ncupaxrl?v=CzkORM_NXmtMShe1u8ZeeVojNtO7TVympdGrWCY-AF5yiC_CaRptv7GjAwfMnu6MirU8OjdPZCiYBSBXObWa3PKz27TxrzsmKVtVFkEwoZvQiWTeQ8QF3F_8RV_hRFTOyFtBxTJsmRL7IufZ11we6OBFkGQT4K7CYWcSttd2WlCTWxkbilBpp2MCehCgDY8
+[2026-04-12 20:33:33.215] [info]  (main)         [Buzzheavier] Extracted direct link
+[2026-04-12 20:33:33.216] [info]  (main)         [DownloadManager] Options received: url=https://fafda.to/d/pzm4ncupaxrl?v=CzkORM_NXmtMShe1u8ZeeVojNtO7TVympdGrWCY-AF5yiC_CaRptv7GjAwfMnu6Mir..., savePath=C:\Users\mouta\Downloads
+[2026-04-12 20:33:33.217] [info]  (main)         [DownloadManager] JsDownloader created, isPreparing=false, starting download...
+[2026-04-12 20:33:33.218] [info]  (main)         [DownloadManager] Resolved URL: https://fafda.to/d/pzm4ncupaxrl
+[2026-04-12 20:33:33.224] [info]  (main)         [DownloadManager] startDownload completed for steam:322170, download running in background
+[2026-04-12 20:33:33.720] [info]  (main)         [JsHttpDownloader] Response status=200 content-type=unknown content-length=328389542
+[2026-04-12 20:33:33.721] [info]  (main)         [JsHttpDownloader] Filename mismatch detected. URL-derived="download" header-derived="Geometry-Dash-SteamRIP.com.rar"
+[2026-04-12 20:33:33.721] [info]  (main)         [JsHttpDownloader] Using filename from Content-Disposition: Geometry-Dash-SteamRIP.com.rar
+[2026-04-12 20:33:35.745] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 20:33:35.746] [info]  (main)         [Downloads] steam:322170 is already active, skipping
+[2026-04-12 20:34:15.275] [info]  (renderer)     Checking Steam shortcut existence for [Promise]
+[2026-04-12 20:34:17.974] [info]  (main)         [Downloads] Resume requested for steam:322170 (status=active, queued=true)
+[2026-04-12 20:34:17.974] [info]  (main)         [Downloads] steam:322170 is already active, skipping
+[2026-04-12 20:35:33.723] [info]  (main)         [JsHttpDownloader] Download complete (328389542 bytes)

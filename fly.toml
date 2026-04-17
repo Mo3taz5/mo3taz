@@ -1,0 +1,49 @@
+# Fly.io configuration for MO3TAZ Analytics Server
+# Deploy with: fly deploy
+
+app = "mo3taz-analytics"
+primary_region = "ams"  # Amsterdam (closest to Middle East/Europe)
+
+[build]
+  dockerfile = "Dockerfile.analytics"
+
+[env]
+  PORT = "3000"
+  NODE_ENV = "production"
+
+# HTTP service
+[[services]]
+  protocol = "tcp"
+  internal_port = 3000
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+    force_https = true
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
+
+  [services.concurrency]
+    type = "connections"
+    hard_limit = 25
+    soft_limit = 20
+
+  [[services.http_checks]]
+    interval = "10s"
+    timeout = "2s"
+    grace_period = "5s"
+    method = "GET"
+    path = "/analytics/summary"
+    protocol = "http"
+
+# Persistent volume for analytics data
+[mounts]
+  source = "analytics_data"
+  destination = "/app/data"
+
+# Resource limits (free tier)
+[vm]
+  size = "shared-cpu-1x"
+  memory = "256mb"

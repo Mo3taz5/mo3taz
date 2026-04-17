@@ -1,0 +1,72 @@
+[2026-04-10 22:54:51.001] [info]  (network)      HydraApi.checkDownloadSourcesChanges called with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T19:54:50.993Z',
+  isLoggedIn: false
+}
+[2026-04-10 22:54:51.003] [error] (network)      HydraApi.checkDownloadSourcesChanges failed: UserNotLoggedInError: user not logged in
+    at HydraApi.validateOptions (file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:7070:37)
+    at HydraApi.post (file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:7090:16)
+    at HydraApi.checkDownloadSourcesChanges (file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:7113:33)
+    at DownloadSourcesChecker.checkForChanges (file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:19726:45)
+    at async file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:52988:13
+[2026-04-10 23:37:56.780] [info]  (network)      HydraApi.checkDownloadSourcesChanges called with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T20:37:56.773Z',
+  isLoggedIn: false
+}
+[2026-04-10 23:37:56.782] [error] (network)      HydraApi.checkDownloadSourcesChanges failed: UserNotLoggedInError: user not logged in
+    at HydraApi.validateOptions (file:///D:/sdk/test/hydra/out/main/index.js:7077:37)
+    at HydraApi.post (file:///D:/sdk/test/hydra/out/main/index.js:7097:16)
+    at HydraApi.checkDownloadSourcesChanges (file:///D:/sdk/test/hydra/out/main/index.js:7120:33)
+    at DownloadSourcesChecker.checkForChanges (file:///D:/sdk/test/hydra/out/main/index.js:19733:45)
+    at async file:///D:/sdk/test/hydra/out/main/index.js:52995:13
+[2026-04-11 01:08:57.293] [info]  (network)      HydraApi.checkDownloadSourcesChanges called with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T22:08:57.289Z',
+  isLoggedIn: false
+}
+[2026-04-11 01:08:57.295] [error] (network)      HydraApi.checkDownloadSourcesChanges failed: UserNotLoggedInError: user not logged in
+    at HydraApi.validateOptions (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7077:37)
+    at HydraApi.post (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7097:16)
+    at HydraApi.checkDownloadSourcesChanges (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7120:33)
+    at DownloadSourcesChecker.checkForChanges (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:19733:45)
+    at async file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:52995:13
+[2026-04-11 01:10:09.627] [info]  (network)      HydraApi.checkDownloadSourcesChanges called with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T22:10:09.624Z',
+  isLoggedIn: false
+}
+[2026-04-11 01:10:09.629] [error] (network)      HydraApi.checkDownloadSourcesChanges failed: UserNotLoggedInError: user not logged in
+    at HydraApi.validateOptions (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7077:37)
+    at HydraApi.post (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7097:16)
+    at HydraApi.checkDownloadSourcesChanges (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7120:33)
+    at DownloadSourcesChecker.checkForChanges (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:19733:45)
+    at async file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:52995:13
+[2026-04-11 01:25:04.304] [info]  (network)      HydraApi.checkDownloadSourcesChanges called with: {
+  downloadSourceIds: [ 'v6n5BBgm' ],
+  gamesCount: 1,
+  since: '2026-04-09T22:25:04.300Z',
+  isLoggedIn: false
+}
+[2026-04-11 01:25:04.305] [error] (network)      HydraApi.checkDownloadSourcesChanges failed: UserNotLoggedInError: user not logged in
+    at HydraApi.validateOptions (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7077:37)
+    at HydraApi.post (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7097:16)
+    at HydraApi.checkDownloadSourcesChanges (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:7120:33)
+    at DownloadSourcesChecker.checkForChanges (file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:19751:45)
+    at async file:///D:/sdk/test/hydra/dist/win-unpacked/resources/app.asar/out/main/index.js:53013:13
+[2026-04-11 12:27:59.665] [info]  (network)      HydraApi.checkDownloadSourcesChanges called with: {
+  downloadSourceIds: [ 'ac028d42-a3df-4be6-9cbb-726fbe0d3b28', 'v6n5BBgm' ],
+  gamesCount: 2,
+  since: '2026-04-10T09:27:59.660Z',
+  isLoggedIn: false
+}
+[2026-04-11 12:27:59.668] [error] (network)      HydraApi.checkDownloadSourcesChanges failed: UserNotLoggedInError: user not logged in
+    at HydraApi.validateOptions (file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:7070:37)
+    at HydraApi.post (file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:7090:16)
+    at HydraApi.checkDownloadSourcesChanges (file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:7113:33)
+    at DownloadSourcesChecker.checkForChanges (file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:19726:45)
+    at async file:///D:/HYDER/Mo3taz/resources/app.asar/out/main/index.js:52988:13
